@@ -29,9 +29,8 @@ function Philosophy() {
 
   return (
     <section id="philosophy" ref={container} className="relative py-32 px-8 min-h-[80vh] flex items-center bg-charcoal overflow-hidden">
-      <div className="absolute inset-0 opacity-10">
-        <img src="https://images.unsplash.com/photo-1518640467707-6811f4a6ab73?q=80&w=2960&auto=format&fit=crop" alt="Texture" className="w-full h-full object-cover grayscale" />
-      </div>
+      {/* Subtle radial gradient for depth — replaced external Unsplash image */}
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(42,42,42,0.4)_0%,rgba(30,30,30,1)_70%)]" />
       <div className="max-w-6xl mx-auto relative z-10 w-full flex flex-col gap-12">
         <div className="mb-4">
           <span className="font-data text-sm text-[#4A6A4A] px-3 py-1 bg-success/20 border border-success/40 rounded-sm">PHILOSOPHY & MINDSET</span>

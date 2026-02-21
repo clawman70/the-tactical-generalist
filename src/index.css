@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: theme('colors.warm-white');
+    color: theme('colors.charcoal');
+  }
+}
+
+@layer components {
+  .noise-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: 9999;
+    opacity: 0.05;
+  }
+
+  .magnetic-btn {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+
+  .magnetic-btn:hover {
+    transform: scale(1.03);
+  }
+
+  .interactive-link {
+    display: inline-block;
+    transition: transform 0.2s ease-out;
+  }
+
+  .interactive-link:hover {
+    transform: translateY(-1px);
+  }
+}
+
+/* Base resets not covered by tailwind optionally */
+html {
+  scroll-behavior: smooth;
+}

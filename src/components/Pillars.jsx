@@ -11,7 +11,7 @@ function Pillars() {
     <section id="pillars" className="py-32 px-8 max-w-7xl mx-auto">
       <div className="mb-20 text-center md:text-left">
         <h2 className="font-heading font-bold text-5xl md:text-7xl text-charcoal tracking-tighter mb-6">The Four Pillars</h2>
-        <p className="font-sans text-xl text-slate max-w-2xl">Core systems required to build independence and maintain perspective in a complex world.</p>
+        <p className="font-sans text-xl text-slate max-w-2xl">The four areas I think matter most for building a good life. Each one drawn from real experience — things I've learned, messed up, and figured out over 30+ years.</p>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">

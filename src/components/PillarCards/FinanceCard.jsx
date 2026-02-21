@@ -11,9 +11,9 @@ gsap.registerPlugin(ScrollTrigger);
  */
 function FinanceCard() {
   const [cards, setCards] = useState([
-    { id: 1, text: "Budgeting Basics", stat: "01", active: true },
-    { id: 2, text: "Debt Strategy", stat: "02", active: false },
-    { id: 3, text: "Retirement Planning", stat: "03", active: false }
+    { id: 1, text: "Budgeting Basics", stat: "Budgeting", active: true },
+    { id: 2, text: "Debt Strategy", stat: "Debt", active: false },
+    { id: 3, text: "Retirement Planning", stat: "Retirement", active: false }
   ]);
   const container = useRef(null);
 
@@ -47,7 +47,7 @@ function FinanceCard() {
     <div ref={container} className="bg-cream rounded-[2rem] p-8 shadow-sm border border-stone/20 flex flex-col h-[400px] overflow-hidden relative">
       <div className="flex justify-between items-center mb-8 relative z-10">
         <h3 className="font-heading font-bold text-2xl text-charcoal">Personal Finance</h3>
-        <span className="font-data text-sm text-bronze-dark px-3 py-1 bg-bronze-light/20 border border-bronze-light/40 rounded-sm">SYSTEM 01</span>
+        <span className="font-data text-sm text-bronze-dark px-3 py-1 bg-bronze-light/20 border border-bronze-light/40 rounded-sm">Personal Finance</span>
       </div>
       <div className="flex-1 relative">
         {cards.map((card, i) => (
@@ -61,7 +61,7 @@ function FinanceCard() {
               opacity: 1 - i * 0.3
             }}
           >
-            <p className="font-data text-sm opacity-60 mb-8 text-bronze">MODULE {card.stat}</p>
+            <p className="font-data text-sm opacity-60 mb-8 text-bronze">{card.stat}</p>
             <p className="font-heading font-semibold text-xl">{card.text}</p>
           </div>
         ))}

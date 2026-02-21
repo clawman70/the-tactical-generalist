@@ -59,7 +59,7 @@ function Protocol() {
       <div className="max-w-5xl mx-auto">
         <div className="mb-24 flex justify-between items-end border-b border-stone/30 pb-8">
           <h2 className="font-heading font-bold text-5xl md:text-7xl text-charcoal tracking-tighter">The Process</h2>
-          <p className="font-data text-bronze-dark mb-2 hidden md:block">STATIC ARCHIVE PROTOCOL</p>
+          <p className="font-data text-bronze-dark mb-2 hidden md:block">LEARN &middot; APPLY &middot; SHARE</p>
         </div>
 
         <div className="relative pb-[50vh]">

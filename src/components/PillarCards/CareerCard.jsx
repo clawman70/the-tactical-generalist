@@ -44,7 +44,7 @@ function CareerCard() {
     <div ref={container} className="bg-cream rounded-[2rem] p-8 shadow-sm border border-stone/20 flex flex-col h-[400px] relative overflow-hidden">
       <div className="flex justify-between items-center mb-8">
         <h3 className="font-heading font-bold text-2xl text-charcoal">Business & Career</h3>
-        <span className="font-data text-sm text-info px-3 py-1 bg-info/20 border border-info/40 rounded-sm">SYSTEM 03</span>
+        <span className="font-data text-sm text-info px-3 py-1 bg-info/20 border border-info/40 rounded-sm">Business & Career</span>
       </div>
 
       <p className="font-sans text-charcoal/80 mb-6">Navigating corporate life, networking, and executing effectively.</p>
@@ -58,7 +58,7 @@ function CareerCard() {
       </div>
 
       <div className="mt-auto flex justify-end">
-        <div className="save-btn px-4 py-2 border border-bronze text-bronze rounded-sm font-heading font-semibold text-sm transition-colors">Apply System</div>
+        <div className="save-btn px-4 py-2 border border-bronze text-bronze rounded-sm font-heading font-semibold text-sm transition-colors">Get Started</div>
       </div>
 
       {/* SVG Cursor */}

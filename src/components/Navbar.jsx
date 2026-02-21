@@ -38,7 +38,7 @@ function Navbar() {
         ))}
       </div>
       <a href="#connect" className="magnetic-btn bg-bronze text-charcoal px-6 py-2 rounded-sm font-heading font-semibold hover:bg-bronze-light flex items-center gap-2">
-        <span className="relative z-10">Access Archive</span>
+        <span className="relative z-10">Start Here</span>
       </a>
     </nav>
   );

@@ -40,7 +40,7 @@ function Philosophy() {
           Most advice focuses on theory and optimization.
         </p>
         <p className="reveal-line font-heading text-5xl md:text-7xl lg:text-8xl text-warm-white max-w-4xl tracking-tight leading-[1.1]">
-          We focus on building <span className="font-drama italic text-gold font-normal tracking-normal text-6xl md:text-8xl lg:text-[9rem]">resilience</span> and executing the basics flawlessly.
+          I focus on building <span className="font-drama italic text-gold font-normal tracking-normal text-6xl md:text-8xl lg:text-[9rem]">resilience</span> and executing the basics flawlessly.
         </p>
       </div>
     </section>

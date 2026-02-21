@@ -38,10 +38,7 @@ function LifeSkillsCard() {
     <div ref={container} className="bg-gunmetal rounded-[2rem] p-8 shadow-lg flex flex-col h-[400px]">
       <div className="flex justify-between items-center mb-8 border-b border-stone/20 pb-4">
         <h3 className="font-heading font-bold text-2xl text-warm-white">Practical Life Skills</h3>
-        <div className="flex items-center gap-2 px-3 py-1 bg-copper/20 border border-copper/40 rounded-sm">
-          <div className="w-2 h-2 rounded-full bg-copper animate-pulse"></div>
-          <span className="font-data text-sm text-copper-light">LIVE FEED</span>
-        </div>
+        <span className="font-data text-sm text-copper px-3 py-1 bg-copper/20 border border-copper/40 rounded-sm">Life Skills</span>
       </div>
       <div className="flex-1 font-data text-cream/90 leading-relaxed text-sm md:text-base">
         {displayed}

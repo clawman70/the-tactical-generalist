@@ -6,9 +6,9 @@ import { useGSAP } from '@gsap/react';
 gsap.registerPlugin(ScrollTrigger);
 
 /**
- * Protocol — "The Process" section with three pinned, stacking cards.
+ * Protocol — "The Process" section with three stacked cards.
  * Each card represents a step: Learn the Theory, Apply in Reality, Pass it Down.
- * Uses ScrollTrigger pin for a layered reveal effect as user scrolls.
+ * Cards scroll normally with the page; GSAP handles stagger reveal and looping sub-animations.
  */
 function Protocol() {
   const container = useRef(null);
@@ -19,34 +19,6 @@ function Protocol() {
   ];
 
   useGSAP(() => {
-    const cardElements = gsap.utils.toArray('.protocol-card');
-
-    cardElements.forEach((card, i) => {
-      ScrollTrigger.create({
-        trigger: card,
-        start: "top 20%",
-        endTrigger: container.current,
-        end: "bottom bottom",
-        pin: true,
-        pinSpacing: false,
-        id: `pin-${i}`,
-      });
-
-      if (i < cardElements.length - 1) {
-        gsap.to(card, {
-          scale: 0.9,
-          opacity: 0.5,
-          filter: 'blur(10px)',
-          scrollTrigger: {
-            trigger: cardElements[i + 1],
-            start: "top 60%",
-            end: "top 20%",
-            scrub: true,
-          }
-        });
-      }
-    });
-
     // Sub-animations for the visual elements inside each card
     gsap.to('.anim-rotate', { rotation: 360, duration: 20, repeat: -1, ease: 'linear' });
     gsap.to('.anim-scan', { y: 150, duration: 2, repeat: -1, yoyo: true, ease: 'power1.inOut' });
@@ -55,16 +27,16 @@ function Protocol() {
   }, { scope: container });
 
   return (
-    <section id="protocol" ref={container} className="py-24 px-8 bg-warm-white relative">
+    <section id="protocol" ref={container} className="py-24 px-8 bg-warm-white">
       <div className="max-w-5xl mx-auto">
         <div className="mb-24 flex justify-between items-end border-b border-stone/30 pb-8">
           <h2 className="font-heading font-bold text-5xl md:text-7xl text-charcoal tracking-tighter">The Process</h2>
           <p className="font-data text-bronze-dark mb-2 hidden md:block">LEARN &middot; APPLY &middot; SHARE</p>
         </div>
 
-        <div className="relative pb-[50vh]">
+        <div className="flex flex-col gap-12">
           {cards.map((card, i) => (
-            <div key={i} className="protocol-card w-full min-h-[50vh] bg-cream rounded-[3rem] p-8 md:p-16 shadow-2xl border border-stone/20 flex flex-col md:flex-row gap-12 absolute" style={{ top: i * 20, zIndex: i }}>
+            <div key={i} className="protocol-card w-full bg-cream rounded-[3rem] p-8 md:p-16 shadow-2xl border border-stone/20 flex flex-col md:flex-row gap-12">
 
               <div className="w-full md:w-1/3 aspect-square bg-gunmetal rounded-[2rem] relative overflow-hidden flex items-center justify-center">
                 {card.type === 'rotate' && (
@@ -99,8 +71,6 @@ function Protocol() {
           ))}
         </div>
       </div>
-      {/* Spacer to handle the absolute positioning overflow */}
-      <div style={{ height: `${cards.length * 10}vh` }}></div>
     </section>
   );
 }

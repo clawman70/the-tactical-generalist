@@ -27,7 +27,7 @@ function About() {
   }, { scope: container });
 
   return (
-    <section id="about" ref={container} className="py-32 px-8 bg-warm-white">
+    <section id="about" ref={container} className="relative z-10 pt-12 pb-32 px-8 bg-warm-white">
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-16">
         {/* Logo as visual anchor */}
         <div className="about-elem flex-shrink-0">

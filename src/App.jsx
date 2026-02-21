@@ -5,6 +5,7 @@ import Connect from './components/Connect';
 import Pillars from './components/Pillars';
 import Philosophy from './components/Philosophy';
 import Protocol from './components/Protocol';
+import About from './components/About';
 import Footer from './components/Footer';
 
 /**
@@ -27,7 +28,9 @@ function App() {
       <Philosophy />
       {/* 6. The Process - Pinned card scroll sequence */}
       <Protocol />
-      {/* 7. Footer */}
+      {/* 7. About - Bio section with TG logo */}
+      <About />
+      {/* 8. Footer */}
       <Footer />
     </div>
   );

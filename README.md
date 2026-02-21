@@ -1,16 +1,85 @@
-# React + Vite
+# The Tactical Generalist
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Timeless advice from someone who's tried almost everything. A hub website for Jeff Clawson's legacy project spanning personal finance, career, life skills, and mindset.
 
-Currently, two official plugins are available:
+## What This Is
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A static single-page website that serves as the central hub for The Tactical Generalist content across YouTube and Substack. This is a legacy project, not a business — it's designed to pass down 30+ years of practical life wisdom.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React 19** — UI framework
+- **Vite 7** — Build tool and dev server
+- **Tailwind CSS 3** — Utility-first styling
+- **GSAP** — Scroll-triggered animations
+- **Lucide React** — Icon library
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev     # Start dev server (localhost:5173)
+npm run build   # Build for production (output in dist/)
+npm run preview # Preview production build locally
+```
+
+## Updating Content
+
+To update the "Latest Content" section on the homepage, edit the data array in:
+
+```
+src/data/content.js
+```
+
+Each content item has:
+- `title` — Display title
+- `pillar` — One of: `"finance"`, `"career"`, `"lifeskills"`, `"mindset"`
+- `format` — `"video"` or `"written"`
+- `url` — Link to the full piece on YouTube or Substack
+- `description` — Short 1-2 sentence summary
+- `date` — Publication date (YYYY-MM-DD format)
+
+## Project Structure
+
+```
+src/
+  App.jsx                     — Composition root (section order)
+  main.jsx                    — React entry point
+  index.css                   — Global Tailwind styles
+  components/
+    Navbar.jsx                — Fixed floating nav + mobile hamburger
+    MobileMenu.jsx            — Full-screen mobile menu overlay
+    Hero.jsx                  — Full viewport banner section
+    Pillars.jsx               — 2x2 grid of pillar cards
+    PillarCards/
+      FinanceCard.jsx         — Shuffling card stack animation
+      LifeSkillsCard.jsx      — Typewriter text effect
+      CareerCard.jsx          — Animated cursor interaction
+      MindsetCard.jsx         — Breathing concentric circles
+    About.jsx                 — Bio section with TG logo
+    ContentFeed.jsx           — Latest content cards grid
+    Philosophy.jsx            — Cinematic statement section
+    Protocol.jsx              — Pinned stacking card scroll
+    Connect.jsx               — YouTube + Substack CTAs
+    Footer.jsx                — Links and copyright
+  data/
+    content.js                — Static content feed (edit this to update)
+    navigation.js             — Shared nav link definitions
+```
+
+## Platform Links
+
+- YouTube: https://www.youtube.com/@thetacticalgeneralist
+- Substack: https://thetacticalgeneralist.substack.com/
+
+## Deployment
+
+This is a static site. The `dist/` folder can be deployed to any static host:
+- **Vercel** — `vercel deploy` or connect to git repo
+- **Netlify** — Drag and drop the `dist/` folder
+- **Any static host** — Upload the contents of `dist/`
+
+## Known TODOs
+
+- **Image optimization**: `banner.png` (8.4 MB) and `logo.png` (5.6 MB) should be compressed before production deployment. Target: banner under 500 KB, logo under 200 KB. Consider WebP format.
+- **Platform URLs**: Twitter/X link is a placeholder — update when account is confirmed.

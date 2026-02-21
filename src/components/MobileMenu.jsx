@@ -10,7 +10,6 @@ import { navLinks } from '../data/navigation';
  */
 function MobileMenu({ isOpen, onClose }) {
   const overlayRef = useRef(null);
-  const linksRef = useRef(null);
 
   // Lock body scroll when menu is open
   useEffect(() => {

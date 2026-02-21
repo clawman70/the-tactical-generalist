@@ -1,6 +1,8 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Pillars from './components/Pillars';
+import About from './components/About';
+import ContentFeed from './components/ContentFeed';
 import Philosophy from './components/Philosophy';
 import Protocol from './components/Protocol';
 import Connect from './components/Connect';
@@ -16,15 +18,19 @@ function App() {
       <Navbar />
       {/* 1. Hero - Full viewport banner */}
       <Hero />
-      {/* 2. Pillars - Interactive cards for each content pillar */}
+      {/* 2. Pillars - 4 interactive cards in 2x2 grid */}
       <Pillars />
-      {/* 3. Philosophy - Cinematic statement piece */}
+      {/* 3. About - Jeff's bio and project purpose */}
+      <About />
+      {/* 4. Content Feed - Latest videos and articles */}
+      <ContentFeed />
+      {/* 5. Philosophy - Cinematic statement piece */}
       <Philosophy />
-      {/* 4. The Process - Pinned card scroll sequence */}
+      {/* 6. The Process - Pinned card scroll sequence */}
       <Protocol />
-      {/* 5. Connect - Platform links (YouTube, Substack) */}
+      {/* 7. Connect - Platform links (YouTube, Substack) */}
       <Connect />
-      {/* 6. Footer */}
+      {/* 8. Footer */}
       <Footer />
     </div>
   );

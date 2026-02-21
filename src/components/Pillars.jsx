@@ -1,10 +1,10 @@
 import FinanceCard from './PillarCards/FinanceCard';
 import LifeSkillsCard from './PillarCards/LifeSkillsCard';
 import CareerCard from './PillarCards/CareerCard';
+import MindsetCard from './PillarCards/MindsetCard';
 
 /**
- * Pillars — Section wrapper that displays the content pillar cards in a grid.
- * Currently shows 3 pillars; the 4th (Philosophy & Mindset) will be added in Phase 3.
+ * Pillars — Section wrapper displaying all 4 content pillar cards in a 2x2 grid.
  */
 function Pillars() {
   return (
@@ -14,10 +14,11 @@ function Pillars() {
         <p className="font-sans text-xl text-slate max-w-2xl">The four areas I think matter most for building a good life. Each one drawn from real experience — things I've learned, messed up, and figured out over 30+ years.</p>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <FinanceCard />
         <LifeSkillsCard />
         <CareerCard />
+        <MindsetCard />
       </div>
     </section>
   );

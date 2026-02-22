@@ -20,7 +20,7 @@ function App() {
       <Hero />
       {/* 2. Content Feed - Latest videos and articles */}
       <ContentFeed />
-      {/* 3. Connect - Platform links (YouTube, Substack) */}
+      {/* 3. Connect - Platform links (Substack) */}
       <Connect />
       {/* 4. Pillars - 4 interactive cards in 2x2 grid */}
       <Pillars />

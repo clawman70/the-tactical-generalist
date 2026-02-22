@@ -8,7 +8,7 @@ import { latestContent, pillarStyles } from '../data/content';
 gsap.registerPlugin(ScrollTrigger);
 
 /**
- * ContentFeed — Displays the latest content cards from YouTube and Substack.
+ * ContentFeed — Displays the latest content cards from Substack.
  * Data is sourced from src/data/content.js — edit that file to update what's shown.
  */
 function ContentFeed() {

@@ -13,9 +13,7 @@ function Footer() {
         <div className="flex gap-16 font-sans">
           <div className="flex flex-col gap-4">
             <span className="font-data text-xs text-stone mb-2">PLATFORMS</span>
-            <a href="https://www.youtube.com/@thetacticalgeneralist" target="_blank" rel="noreferrer" className="hover:text-bronze transition-colors">YouTube</a>
             <a href="https://thetacticalgeneralist.substack.com/" target="_blank" rel="noreferrer" className="hover:text-bronze transition-colors">Substack</a>
-            <a href="https://x.com/thetacticalgeneralist" target="_blank" rel="noreferrer" className="hover:text-bronze transition-colors">X / Twitter</a>
           </div>
           <div className="flex flex-col gap-4">
             <span className="font-data text-xs text-stone mb-2">QUICK LINKS</span>

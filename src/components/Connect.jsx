@@ -1,8 +1,8 @@
-import { ArrowUpRight, Youtube, Newspaper, Compass } from 'lucide-react';
+import { ArrowUpRight, Newspaper, Compass } from 'lucide-react';
 
 /**
- * Connect — CTA section linking to YouTube and Substack.
- * Features large card links for each platform with hover effects.
+ * Connect — CTA section linking to Substack.
+ * Features a large card link with hover effects.
  */
 function Connect() {
   return (
@@ -10,22 +10,9 @@ function Connect() {
       <div className="max-w-6xl mx-auto flex flex-col lg:flex-row gap-16 justify-between relative z-10">
         <div className="flex-1">
           <h2 className="font-heading font-bold text-5xl md:text-7xl mb-8 tracking-tighter text-gold">Start Here.</h2>
-          <p className="font-sans text-xl text-cream max-w-xl mb-12">Pick your format. One substantial piece per week, alternating between video guides and written deep-dives.</p>
+          <p className="font-sans text-xl text-cream max-w-xl mb-12">One substantial piece per week — practical written deep-dives across all four pillars.</p>
 
           <div className="flex flex-col gap-6">
-            <a href="https://www.youtube.com/@thetacticalgeneralist" target="_blank" rel="noreferrer" className="group flex items-center justify-between p-8 border border-stone/30 bg-charcoal rounded-[2rem] hover:border-bronze transition-colors">
-              <div className="flex items-center gap-6">
-                <div className="w-16 h-16 rounded-full bg-charcoal border border-stone/50 text-bronze-light flex items-center justify-center group-hover:bg-bronze group-hover:text-charcoal transition-colors">
-                  <Youtube size={32} />
-                </div>
-                <div>
-                  <h3 className="font-heading font-bold text-2xl text-warm-white">YouTube Guides</h3>
-                  <p className="font-data text-sm text-stone mt-1">VIDEO GUIDES</p>
-                </div>
-              </div>
-              <ArrowUpRight className="text-stone group-hover:text-bronze transition-colors" size={32} />
-            </a>
-
             <a href="https://thetacticalgeneralist.substack.com/" target="_blank" rel="noreferrer" className="group flex items-center justify-between p-8 border border-stone/30 bg-charcoal rounded-[2rem] hover:border-bronze transition-colors">
               <div className="flex items-center gap-6">
                 <div className="w-16 h-16 rounded-full bg-charcoal border border-stone/50 text-bronze-light flex items-center justify-center group-hover:bg-bronze group-hover:text-charcoal transition-colors">

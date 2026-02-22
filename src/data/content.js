@@ -6,7 +6,7 @@
  *   title    — Display title for the card
  *   pillar   — One of: "finance", "career", "lifeskills", "mindset"
  *   format   — Either "video" or "written"
- *   url      — Link to the full piece (YouTube or Substack)
+ *   url      — Link to the full piece on Substack
  *   description — Short summary (1-2 sentences)
  *   date     — Publication date (YYYY-MM-DD)
  */

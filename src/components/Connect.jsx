@@ -10,7 +10,7 @@ function Connect() {
       <div className="max-w-6xl mx-auto flex flex-col lg:flex-row gap-16 justify-between relative z-10">
         <div className="flex-1">
           <h2 className="font-heading font-bold text-5xl md:text-7xl mb-8 tracking-tighter text-gold">Start Here.</h2>
-          <p className="font-sans text-xl text-cream max-w-xl mb-12">One substantial piece per week — practical written deep-dives across all four pillars.</p>
+          <p className="font-sans text-xl text-cream max-w-xl mb-12">One substantial piece per week — practical written deep-dives across all five pillars.</p>
 
           <div className="flex flex-col gap-6">
             <a href="https://thetacticalgeneralist.substack.com/" target="_blank" rel="noreferrer" className="group flex items-center justify-between p-8 border border-stone/30 bg-charcoal rounded-[2rem] hover:border-bronze transition-colors">

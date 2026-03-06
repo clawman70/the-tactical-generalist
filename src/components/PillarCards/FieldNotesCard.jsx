@@ -78,7 +78,7 @@ function FieldNotesCard() {
 
       {/* RIGHT: text content */}
       <div className="flex-1 flex flex-col justify-center">
-        <span className="font-data text-sm text-forest px-3 py-1 bg-forest/20 border border-forest/40 rounded-sm self-start mb-6">
+        <span className="font-data text-sm text-error px-3 py-1 bg-error/20 border border-error/40 rounded-sm self-start mb-6">
           Field Notes
         </span>
         <h3 className="font-heading font-bold text-4xl mb-4 text-charcoal">Field Notes</h3>

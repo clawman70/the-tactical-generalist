@@ -40,9 +40,11 @@ function ArticlesPage() {
           </div>
         </section>
 
-        {/* Pillar sections */}
+        {/* Pillar sections — show max 3 per pillar with "More" link */}
         {pillarOrder.map(({ key, heading }) => {
-          const articles = latestContent.filter((item) => item.pillar === key);
+          const allArticles = latestContent.filter((item) => item.pillar === key);
+          const visibleArticles = allArticles.slice(0, 3);
+          const hasMore = allArticles.length > 3;
           const style = pillarStyles[key];
 
           return (
@@ -50,48 +52,62 @@ function ArticlesPage() {
               <div className="max-w-7xl mx-auto">
                 <h2 className="font-heading font-bold text-3xl text-charcoal mb-8">{heading}</h2>
 
-                {articles.length === 0 ? (
-                  <p className="font-sans text-slate italic">Field Notes articles coming soon.</p>
+                {allArticles.length === 0 ? (
+                  <p className="font-sans text-slate italic">{heading} articles coming soon.</p>
                 ) : (
-                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    {articles.map((item, i) => {
-                      const FormatIcon = item.format === 'video' ? PlayCircle : BookOpen;
+                  <>
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                      {visibleArticles.map((item, i) => {
+                        const FormatIcon = item.format === 'video' ? PlayCircle : BookOpen;
 
-                      return (
+                        return (
+                          <Link
+                            key={i}
+                            to={`/articles/${item.slug}`}
+                            className="group bg-warm-white rounded-2xl p-6 border border-stone/20 hover:border-bronze transition-colors flex flex-col gap-4 shadow-sm"
+                          >
+                            {/* Pillar tag + format icon */}
+                            <div className="flex items-center justify-between">
+                              <span className={`font-data text-xs px-2 py-1 rounded-sm ${style.bg} ${style.border} ${style.text} border`}>
+                                {style.label}
+                              </span>
+                              <FormatIcon className="w-5 h-5 text-stone" />
+                            </div>
+
+                            {/* Title */}
+                            <h3 className="font-heading font-bold text-lg text-charcoal leading-snug group-hover:text-bronze-dark transition-colors">
+                              {item.title}
+                            </h3>
+
+                            {/* Description */}
+                            <p className="font-sans text-sm text-slate leading-relaxed flex-1">
+                              {item.description}
+                            </p>
+
+                            {/* Footer: date + arrow */}
+                            <div className="flex items-center justify-between pt-2 border-t border-stone/10">
+                              <span className="font-data text-xs text-stone">
+                                {new Date(item.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
+                              </span>
+                              <ArrowUpRight className="w-4 h-4 text-stone group-hover:text-bronze transition-colors" />
+                            </div>
+                          </Link>
+                        );
+                      })}
+                    </div>
+
+                    {hasMore && (
+                      <div className="mt-6">
                         <Link
-                          key={i}
-                          to={`/articles/${item.slug}`}
-                          className="group bg-warm-white rounded-2xl p-6 border border-stone/20 hover:border-bronze transition-colors flex flex-col gap-4 shadow-sm"
+                          to={`/articles/${key}`}
+                          className="font-heading font-semibold text-bronze hover:text-bronze-dark transition-colors inline-flex items-center gap-2"
                         >
-                          {/* Pillar tag + format icon */}
-                          <div className="flex items-center justify-between">
-                            <span className={`font-data text-xs px-2 py-1 rounded-sm ${style.bg} ${style.border} ${style.text} border`}>
-                              {style.label}
-                            </span>
-                            <FormatIcon className="w-5 h-5 text-stone" />
-                          </div>
-
-                          {/* Title */}
-                          <h3 className="font-heading font-bold text-lg text-charcoal leading-snug group-hover:text-bronze-dark transition-colors">
-                            {item.title}
-                          </h3>
-
-                          {/* Description */}
-                          <p className="font-sans text-sm text-slate leading-relaxed flex-1">
-                            {item.description}
-                          </p>
-
-                          {/* Footer: date + arrow */}
-                          <div className="flex items-center justify-between pt-2 border-t border-stone/10">
-                            <span className="font-data text-xs text-stone">
-                              {new Date(item.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
-                            </span>
-                            <ArrowUpRight className="w-4 h-4 text-stone group-hover:text-bronze transition-colors" />
-                          </div>
+                          More {heading}
+                          <ArrowUpRight className="w-4 h-4" />
                         </Link>
-                      );
-                    })}
-                  </div>
+                      </div>
+                    )}
+                  </>
                 )}
               </div>
             </section>

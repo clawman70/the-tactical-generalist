@@ -15,6 +15,11 @@ gsap.registerPlugin(ScrollTrigger);
 function ContentFeed() {
   const container = useRef(null);
 
+  // Show only the 4 most recent articles, sorted by date descending
+  const recentArticles = [...latestContent]
+    .sort((a, b) => new Date(b.date) - new Date(a.date))
+    .slice(0, 4);
+
   useGSAP(() => {
     gsap.from('.feed-card', {
       y: 30,
@@ -34,11 +39,11 @@ function ContentFeed() {
       <div className="max-w-7xl mx-auto">
         <div className="mb-16 text-center md:text-left">
           <h2 className="font-heading font-bold text-5xl md:text-7xl text-charcoal tracking-tighter mb-6">Latest Content</h2>
-          <p className="font-sans text-xl text-slate max-w-2xl">Recent videos and articles across all five pillars.</p>
+          <p className="font-sans text-xl text-slate max-w-2xl">Recent articles across all five pillars. Browse the full archive below.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {latestContent.map((item, i) => {
+          {recentArticles.map((item, i) => {
             const style = pillarStyles[item.pillar];
             const FormatIcon = item.format === 'video' ? PlayCircle : BookOpen;
 
@@ -76,6 +81,14 @@ function ContentFeed() {
               </Link>
             );
           })}
+        </div>
+
+        {/* View All link */}
+        <div className="mt-10 text-center">
+          <Link to="/articles" className="font-heading font-semibold text-bronze hover:text-bronze-dark transition-colors inline-flex items-center gap-2">
+            View All Articles
+            <ArrowUpRight className="w-4 h-4" />
+          </Link>
         </div>
       </div>
     </section>

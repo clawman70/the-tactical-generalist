@@ -46,7 +46,15 @@ function Navbar() {
   return (
     <>
       <nav ref={navRef} className={`fixed top-6 left-1/2 -translate-x-1/2 px-6 md:px-8 py-3 md:py-4 rounded-full flex items-center gap-8 md:gap-12 z-50 backdrop-blur-xl border border-transparent transition-colors duration-300 ${isHomePage ? 'text-warm-white' : 'text-charcoal'}`}>
-        <Link to="/" className="flex items-center gap-3">
+        <Link
+          to="/"
+          className="flex items-center gap-3"
+          onClick={() => {
+            if (location.pathname === '/') {
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+          }}
+        >
           <img src="/logo.png" alt="TG Logo" className="w-8 h-8 md:w-10 md:h-10 rounded-full object-cover shadow-sm bg-white" />
           <span className="font-heading font-bold text-lg leading-none tracking-tight hidden lg:block">The Tactical Generalist</span>
         </Link>

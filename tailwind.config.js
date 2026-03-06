@@ -25,6 +25,8 @@ export default {
         warning: '#B8860B',
         error: '#A85454',
         info: '#5A7A8A',
+        forest: '#4A6741',
+        'sage-light': '#D4E8C2',
         // keep old aliases for quick fallback while we transition App.jsx, but point to new colors
         background: '#F5F3EF',
         primary: '#EDE8E0',

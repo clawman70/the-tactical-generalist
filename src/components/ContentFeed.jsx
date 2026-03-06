@@ -1,4 +1,5 @@
 import { useRef } from 'react';
+import { Link } from 'react-router-dom';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useGSAP } from '@gsap/react';
@@ -33,7 +34,7 @@ function ContentFeed() {
       <div className="max-w-7xl mx-auto">
         <div className="mb-16 text-center md:text-left">
           <h2 className="font-heading font-bold text-5xl md:text-7xl text-charcoal tracking-tighter mb-6">Latest Content</h2>
-          <p className="font-sans text-xl text-slate max-w-2xl">Recent videos and articles across all four pillars.</p>
+          <p className="font-sans text-xl text-slate max-w-2xl">Recent videos and articles across all five pillars.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -42,11 +43,9 @@ function ContentFeed() {
             const FormatIcon = item.format === 'video' ? PlayCircle : BookOpen;
 
             return (
-              <a
+              <Link
                 key={i}
-                href={item.url}
-                target="_blank"
-                rel="noreferrer"
+                to={`/articles/${item.slug}`}
                 className="feed-card group bg-warm-white rounded-2xl p-6 border border-stone/20 hover:border-bronze transition-colors flex flex-col gap-4 shadow-sm"
               >
                 {/* Pillar tag + format icon */}
@@ -74,7 +73,7 @@ function ContentFeed() {
                   </span>
                   <ArrowUpRight className="w-4 h-4 text-stone group-hover:text-bronze transition-colors" />
                 </div>
-              </a>
+              </Link>
             );
           })}
         </div>

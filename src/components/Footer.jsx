@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 /**
  * Footer — Site footer with platform links, quick nav links, and copyright.
  */
@@ -17,9 +19,10 @@ function Footer() {
           </div>
           <div className="flex flex-col gap-4">
             <span className="font-data text-xs text-stone mb-2">QUICK LINKS</span>
-            <a href="#pillars" className="hover:text-bronze transition-colors">The 4 Pillars</a>
-            <a href="#philosophy" className="hover:text-bronze transition-colors">Philosophy</a>
-            <a href="#protocol" className="hover:text-bronze transition-colors">The Process</a>
+            <Link to="/articles" className="hover:text-bronze transition-colors">Articles</Link>
+            <a href="/#pillars" className="hover:text-bronze transition-colors">The 5 Pillars</a>
+            <a href="/#philosophy" className="hover:text-bronze transition-colors">Philosophy</a>
+            <a href="/#protocol" className="hover:text-bronze transition-colors">The Process</a>
           </div>
         </div>
       </div>

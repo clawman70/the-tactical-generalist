@@ -1,38 +1,29 @@
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import ContentFeed from './components/ContentFeed';
-import Connect from './components/Connect';
-import Pillars from './components/Pillars';
-import Philosophy from './components/Philosophy';
-import Protocol from './components/Protocol';
-import About from './components/About';
-import Footer from './components/Footer';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async';
+import HomePage from './pages/HomePage';
+import ArticlesPage from './pages/ArticlesPage';
+import ArticlePage from './pages/ArticlePage';
+import ScrollToTop from './components/ScrollToTop';
 
 /**
- * App — Composition root for The Tactical Generalist hub site.
- * Each section is its own component file. See src/components/ for details.
+ * App — Root component with React Router and SEO provider.
+ * Routes:
+ *   /                  → HomePage (full single-page hub)
+ *   /articles          → ArticlesPage (catalog by pillar)
+ *   /articles/:slug    → ArticlePage (individual article excerpt)
  */
 function App() {
   return (
-    <div className="bg-warm-white min-h-screen">
-      <Navbar />
-      {/* 1. Hero - Full viewport banner */}
-      <Hero />
-      {/* 2. Content Feed - Latest videos and articles */}
-      <ContentFeed />
-      {/* 3. Connect - Platform links (Substack) */}
-      <Connect />
-      {/* 4. Pillars - 4 interactive cards in 2x2 grid */}
-      <Pillars />
-      {/* 5. Philosophy - Cinematic statement piece */}
-      <Philosophy />
-      {/* 6. The Process - Pinned card scroll sequence */}
-      <Protocol />
-      {/* 7. About - Bio section with TG logo */}
-      <About />
-      {/* 8. Footer */}
-      <Footer />
-    </div>
+    <HelmetProvider>
+      <BrowserRouter>
+        <ScrollToTop />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/articles" element={<ArticlesPage />} />
+          <Route path="/articles/:slug" element={<ArticlePage />} />
+        </Routes>
+      </BrowserRouter>
+    </HelmetProvider>
   );
 }
 

@@ -119,3 +119,11 @@ import { Link } from 'react-router-dom';
 - All existing GSAP animations still work
 - Layout is mobile responsive (stacks to single column, visual panel above text)
 - Visually consistent with The Process section further down the page
+
+---
+
+## QA Results (March 6, 2026)
+
+Deployed and verified on tacticalgeneralist.com. All five pillar cards stacking correctly in full-width layout. One remaining issue:
+
+**[ ] Field Notes badge contrast** — `FieldNotesCard.jsx` line 80: `text-sage-light` changed to `text-forest`. Fix is already applied to local file. Commit and push to deploy.

@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Tactical Generalist — Style Guide</title>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            /* Primary Palette - Extracted from logo/banner */
+            --color-charcoal: #1E1E1E;
+            --color-gunmetal: #2A2A2A;
+            --color-slate: #3D3D3D;
+            
+            /* Bronze/Gold Tones */
+            --color-bronze-dark: #8B6914;
+            --color-bronze: #B8860B;
+            --color-bronze-light: #D4A84B;
+            --color-gold: #C9A227;
+            --color-gold-light: #E8D5A3;
+            
+            /* Copper Accent */
+            --color-copper: #B87333;
+            --color-copper-light: #CD8C52;
+            
+            /* Neutrals */
+            --color-warm-white: #F5F3EF;
+            --color-cream: #EDE8E0;
+            --color-stone: #9A9590;
+            --color-ash: #6B6B6B;
+            
+            /* Semantic Colors */
+            --color-success: #5C7C5C;
+            --color-warning: #B8860B;
+            --color-error: #A85454;
+            --color-info: #5A7A8A;
+            
+            /* Typography */
+            --font-display: 'Libre Baskerville', Georgia, serif;
+            --font-body: 'DM Sans', -apple-system, sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-body);
+            background: var(--color-warm-white);
+            color: var(--color-charcoal);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 32px;
+        }
+
+        /* Header */
+        .guide-header {
+            text-align: center;
+            padding: 80px 0;
+            background: var(--color-charcoal);
+            color: var(--color-warm-white);
+            margin: -60px -32px 60px;
+            padding-left: 32px;
+            padding-right: 32px;
+        }
+
+        .guide-header h1 {
+            font-family: var(--font-display);
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+            color: var(--color-gold);
+        }
+
+        .guide-header p {
+            font-size: 1.125rem;
+            color: var(--color-stone);
+        }
+
+        /* Sections */
+        section {
+            margin-bottom: 80px;
+        }
+
+        h2 {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: var(--color-charcoal);
+        }
+
+        .section-intro {
+            color: var(--color-ash);
+            margin-bottom: 32px;
+            font-size: 1rem;
+        }
+
+        h3 {
+            font-family: var(--font-body);
+            font-size: 0.875rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--color-ash);
+            margin-bottom: 16px;
+            margin-top: 40px;
+        }
+
+        /* Color Swatches */
+        .color-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+            gap: 16px;
+        }
+
+        .color-swatch {
+            border-radius: 8px;
+            overflow: hidden;
+            background: white;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .swatch-color {
+            height: 80px;
+            display: flex;
+            align-items: flex-end;
+            padding: 8px 12px;
+        }
+
+        .swatch-info {
+            padding: 12px;
+        }
+
+        .swatch-name {
+            font-weight: 600;
+            font-size: 0.875rem;
+            margin-bottom: 4px;
+        }
+
+        .swatch-hex {
+            font-family: var(--font-mono);
+            font-size: 0.75rem;
+            color: var(--color-ash);
+        }
+
+        /* Typography Specimens */
+        .type-specimen {
+            background: white;
+            padding: 32px;
+            border-radius: 8px;
+            margin-bottom: 16px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        .specimen-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--color-ash);
+            margin-bottom: 12px;
+        }
+
+        .specimen-display {
+            font-family: var(--font-display);
+            font-size: 2rem;
+            line-height: 1.3;
+            margin-bottom: 8px;
+        }
+
+        .specimen-body {
+            font-family: var(--font-body);
+            font-size: 1.0625rem;
+            line-height: 1.7;
+        }
+
+        .specimen-mono {
+            font-family: var(--font-mono);
+            font-size: 0.9375rem;
+            background: var(--color-cream);
+            padding: 16px;
+            border-radius: 4px;
+        }
+
+        /* Usage Examples */
+        .usage-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+        }
+
+        @media (max-width: 600px) {
+            .usage-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .usage-card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        .usage-card.dark {
+            background: var(--color-charcoal);
+            color: var(--color-warm-white);
+        }
+
+        .usage-preview {
+            padding: 32px;
+            min-height: 160px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .usage-label {
+            padding: 12px 16px;
+            background: var(--color-cream);
+            font-size: 0.8125rem;
+            font-weight: 500;
+            color: var(--color-ash);
+        }
+
+        .usage-card.dark .usage-label {
+            background: var(--color-gunmetal);
+            color: var(--color-stone);
+        }
+
+        /* Button Examples */
+        .button-primary {
+            display: inline-block;
+            background: var(--color-bronze);
+            color: var(--color-charcoal);
+            padding: 12px 24px;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 0.9375rem;
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
+
+        .button-primary:hover {
+            background: var(--color-bronze-light);
+        }
+
+        .button-secondary {
+            display: inline-block;
+            background: transparent;
+            color: var(--color-bronze);
+            padding: 11px 23px;
+            border: 1px solid var(--color-bronze);
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 0.9375rem;
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
+
+        .button-secondary:hover {
+            background: var(--color-bronze);
+            color: var(--color-charcoal);
+        }
+
+        /* Link Style */
+        .link-example {
+            color: var(--color-bronze);
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+
+        /* Pillar Tags */
+        .pillar-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 16px;
+        }
+
+        .pillar-tag {
+            font-size: 0.8125rem;
+            font-weight: 500;
+            padding: 6px 14px;
+            border-radius: 4px;
+        }
+
+        .pillar-finance {
+            background: #D4A84B22;
+            color: var(--color-bronze-dark);
+            border: 1px solid #D4A84B44;
+        }
+
+        .pillar-career {
+            background: #5A7A8A22;
+            color: #4A6A7A;
+            border: 1px solid #5A7A8A44;
+        }
+
+        .pillar-life {
+            background: #B8733322;
+            color: #96602A;
+            border: 1px solid #B8733344;
+        }
+
+        .pillar-mindset {
+            background: #5C7C5C22;
+            color: #4A6A4A;
+            border: 1px solid #5C7C5C44;
+        }
+
+        /* Do / Don't */
+        .guidelines-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+            margin-top: 24px;
+        }
+
+        @media (max-width: 600px) {
+            .guidelines-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .guideline-card {
+            background: white;
+            padding: 24px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        .guideline-card h4 {
+            font-size: 0.875rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .guideline-card.do h4 {
+            color: var(--color-success);
+        }
+
+        .guideline-card.dont h4 {
+            color: var(--color-error);
+        }
+
+        .guideline-card ul {
+            list-style: none;
+            font-size: 0.9375rem;
+            color: var(--color-slate);
+        }
+
+        .guideline-card li {
+            margin-bottom: 8px;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .guideline-card.do li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--color-success);
+            font-weight: 700;
+        }
+
+        .guideline-card.dont li::before {
+            content: '✕';
+            position: absolute;
+            left: 0;
+            color: var(--color-error);
+            font-weight: 700;
+        }
+
+        /* Divider */
+        hr {
+            border: none;
+            height: 1px;
+            background: var(--color-cream);
+            margin: 60px 0;
+        }
+
+        /* Voice & Tone Table */
+        .tone-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        .tone-table th {
+            text-align: left;
+            padding: 16px;
+            background: var(--color-charcoal);
+            color: var(--color-gold-light);
+            font-size: 0.8125rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .tone-table td {
+            padding: 16px;
+            border-bottom: 1px solid var(--color-cream);
+            font-size: 0.9375rem;
+        }
+
+        .tone-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .tone-table td:first-child {
+            font-weight: 600;
+            color: var(--color-charcoal);
+        }
+
+        .tone-table td:last-child {
+            color: var(--color-ash);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="guide-header">
+            <h1>The Tactical Generalist</h1>
+            <p>Brand Style Guide</p>
+        </header>
+
+        <!-- Color Palette -->
+        <section>
+            <h2>Color Palette</h2>
+            <p class="section-intro">Derived from the logo and banner. The palette centers on a dark charcoal foundation with bronze/gold accents that evoke craftsmanship, timelessness, and earned wisdom.</p>
+
+            <h3>Primary — Dark Foundation</h3>
+            <div class="color-grid">
+                <div class="color-swatch">
+                    <div class="swatch-color" style="background: #1E1E1E;"></div>
+                    <div class="swatch-info">
+                        <div class="swatch-name">Charcoal</div>
+                        <div class="swatch-hex">#1E1E1E</div>
+                    </div>
+                </div>
+                <div class="color-swatch">
+                    <div class="swatch-color" style="background: #2A2A2A;"></div>
+                    <div class="swatch-info">
+                        <div class="swatch-name">Gunmetal</div>
+                        <div class="swatch-hex">#2A2A2A</div>
+                    </div>
+                </div>
+                <div class="color-swatch">
+                    <div class="swatch-color" style="background: #3D3D3D;"></div>
+                    <div class="swatch-info">
+                        <div class="swatch-name">Slate</div>
+                        <div class="swatch-hex">#3D3D3D</div>
+                    </div>
+                </div>
+            </div>
+
+            <h3>Accent — Bronze & Gold</h3>
+            <div class="color-grid">
+                <div class="color-swatch">
+                    <div class="swatch-color" style="background: #8B6914;"></div>
+                    <div class="swatch-info">
+                        <div class="swatch-name">Bronze Dark</div>
+                        <div class="swatch-hex">#8B6914</div>
+                    </div>
+                </div>
+                <div class="color-swatch">
+                    <div class="swatch-color" style="background: #B8860B;"></div>
+                    <div class="swatch-info">
+                        <div class="swatch-name">Bronze</div>
+                        <div class="swatch-hex">#B8860B</div>
+                    </div>
+                </div>
+                <div class="color-swatch">
+                    <div class="swatch-color" style="background: #D4A84B;"></div>
+                    <div class="swatch-info">
+                        <div class="swatch-name">Bronze Light</div>
+                        <div class="swatch-hex">#D4A84B</div>
+                    </div>
+                </div>
+                <div class="color-swatch">
+                    <div class="swatch-color" style="background: #C9A227;"></div>
+                    <div class="swatch-info">
+                        <div class="swatch-name">Gold</div>
+                        <div class="swatch-hex">#C9A227</div>
+                    </div>
+                </div>
+                <div class="color-swatch">
+                    <div class="swatch-color" style="background: #E8D5A3;"></div>
+                    <div class="swatch-info">
+                        <div class="swatch-name">Gold Light</div>
+                        <div class="swatch-hex">#E8D5A3</div>
+                    </div>
+                </div>
+            </div>
+
+            <h3>Secondary — Copper</h3>
+            <div class="color-grid">
+                <div class="color-swatch">
+                    <div class="swatch-color" style="background: #B87333;"></div>
+                    <div class="swatch-info">
+                        <div class="swatch-name">Copper</div>
+                        <div class="swatch-hex">#B87333</div>
+                    </div>
+                </div>
+                <div class="color-swatch">
+                    <div class="swatch-color" style="background: #CD8C52;"></div>
+                    <div class="swatch-info">
+                        <div class="swatch-name">Copper Light</div>
+                        <div class="swatch-hex">#CD8C52</div>
+                    </div>
+                </div>
+            </div>
+
+            <h3>Neutrals</h3>
+            <div class="color-grid">
+                <div class="color-swatch">
+                    <div class="swatch-color" style="background: #F5F3EF;"></div>
+                    <div class="swatch-info">
+                        <div class="swatch-name">Warm White</div>
+                        <div class="swatch-hex">#F5F3EF</div>
+                    </div>
+                </div>
+                <div class="color-swatch">
+                    <div class="swatch-color" style="background: #EDE8E0;"></div>
+                    <div class="swatch-info">
+                        <div class="swatch-name">Cream</div>
+                        <div class="swatch-hex">#EDE8E0</div>
+                    </div>
+                </div>
+                <div class="color-swatch">
+                    <div class="swatch-color" style="background: #9A9590;"></div>
+                    <div class="swatch-info">
+                        <div class="swatch-name">Stone</div>
+                        <div class="swatch-hex">#9A9590</div>
+                    </div>
+                </div>
+                <div class="color-swatch">
+                    <div class="swatch-color" style="background: #6B6B6B;"></div>
+                    <div class="swatch-info">
+                        <div class="swatch-name">Ash</div>
+                        <div class="swatch-hex">#6B6B6B</div>
+                    </div>
+                </div>
+            </div>
+
+            <h3>Semantic</h3>
+            <div class="color-grid">
+                <div class="color-swatch">
+                    <div class="swatch-color" style="background: #5C7C5C;"></div>
+                    <div class="swatch-info">
+                        <div class="swatch-name">Success / Growth</div>
+                        <div class="swatch-hex">#5C7C5C</div>
+                    </div>
+                </div>
+                <div class="color-swatch">
+                    <div class="swatch-color" style="background: #5A7A8A;"></div>
+                    <div class="swatch-info">
+                        <div class="swatch-name">Info / Calm</div>
+                        <div class="swatch-hex">#5A7A8A</div>
+                    </div>
+                </div>
+                <div class="color-swatch">
+                    <div class="swatch-color" style="background: #A85454;"></div>
+                    <div class="swatch-info">
+                        <div class="swatch-name">Caution</div>
+                        <div class="swatch-hex">#A85454</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Typography -->
+        <section>
+            <h2>Typography</h2>
+            <p class="section-intro">A pairing of classic serif (Libre Baskerville) for headlines and a clean sans-serif (DM Sans) for body text. This combination balances timelessness with readability.</p>
+
+            <div class="type-specimen">
+                <div class="specimen-label">Display / Headlines — Libre Baskerville</div>
+                <div class="specimen-display">Master Debt or You Will Become Its Slave</div>
+                <div class="specimen-label" style="margin-top: 16px;">Weights: Regular (400), Bold (700), Italic (400)</div>
+            </div>
+
+            <div class="type-specimen">
+                <div class="specimen-label">Body / UI — DM Sans</div>
+                <div class="specimen-body">Throughout my life I've seen people who I would consider affluent who were one paycheck away from the poorhouse and on the flip side, I know people so frugal you would never guess they have a significant net worth and could retire any time they wanted.</div>
+                <div class="specimen-label" style="margin-top: 16px;">Weights: Regular (400), Medium (500), Semibold (600), Bold (700)</div>
+            </div>
+
+            <div class="type-specimen">
+                <div class="specimen-label">Code / Data — JetBrains Mono</div>
+                <div class="specimen-mono">Income > Expenses = Wealth</div>
+            </div>
+
+            <h3>Type Scale</h3>
+            <div class="type-specimen">
+                <div style="font-family: var(--font-display); font-size: 2.5rem; line-height: 1.2; margin-bottom: 12px;">H1 — 2.5rem / 40px</div>
+                <div style="font-family: var(--font-display); font-size: 1.75rem; line-height: 1.3; margin-bottom: 12px;">H2 — 1.75rem / 28px</div>
+                <div style="font-family: var(--font-display); font-size: 1.25rem; line-height: 1.4; margin-bottom: 12px;">H3 — 1.25rem / 20px</div>
+                <div style="font-family: var(--font-body); font-size: 1.0625rem; line-height: 1.7; margin-bottom: 12px;">Body — 1.0625rem / 17px</div>
+                <div style="font-family: var(--font-body); font-size: 0.875rem; line-height: 1.5; color: var(--color-ash);">Small / Caption — 0.875rem / 14px</div>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Usage Examples -->
+        <section>
+            <h2>Color Usage</h2>
+            <p class="section-intro">The brand supports both dark and light modes. Dark mode (matching the banner) is ideal for video thumbnails and social media. Light mode works better for long-form reading.</p>
+
+            <div class="usage-grid">
+                <div class="usage-card dark">
+                    <div class="usage-preview">
+                        <div style="font-family: var(--font-display); font-size: 1.25rem; color: var(--color-gold); margin-bottom: 8px;">The 6 Accounts Everyone Should Have by 30</div>
+                        <div style="font-size: 0.9375rem; color: var(--color-stone);">Personal Finance • 6 min read</div>
+                    </div>
+                    <div class="usage-label">Dark Mode — Thumbnails, Social, Headers</div>
+                </div>
+                <div class="usage-card">
+                    <div class="usage-preview">
+                        <div style="font-family: var(--font-display); font-size: 1.25rem; color: var(--color-charcoal); margin-bottom: 8px;">The 6 Accounts Everyone Should Have by 30</div>
+                        <div style="font-size: 0.9375rem; color: var(--color-ash);">Personal Finance • 6 min read</div>
+                    </div>
+                    <div class="usage-label">Light Mode — Articles, Hub Website</div>
+                </div>
+            </div>
+
+            <h3>Buttons & Links</h3>
+            <div class="usage-card" style="margin-top: 16px;">
+                <div class="usage-preview" style="flex-direction: row; gap: 16px; flex-wrap: wrap; align-items: center;">
+                    <a href="#" class="button-primary">Subscribe</a>
+                    <a href="#" class="button-secondary">Watch on YouTube</a>
+                    <a href="#" class="link-example">Read more →</a>
+                </div>
+                <div class="usage-label">Bronze accent for primary actions</div>
+            </div>
+
+            <h3>Content Pillar Tags</h3>
+            <div class="usage-card" style="margin-top: 16px;">
+                <div class="usage-preview">
+                    <div class="pillar-tags">
+                        <span class="pillar-tag pillar-finance">Personal Finance</span>
+                        <span class="pillar-tag pillar-career">Business & Career</span>
+                        <span class="pillar-tag pillar-life">Life Skills</span>
+                        <span class="pillar-tag pillar-mindset">Philosophy & Mindset</span>
+                    </div>
+                </div>
+                <div class="usage-label">Each pillar has a distinct but harmonious color</div>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Voice & Tone -->
+        <section>
+            <h2>Voice & Tone</h2>
+            <p class="section-intro">How The Tactical Generalist sounds—direct, warm, and grounded in real experience.</p>
+
+            <table class="tone-table">
+                <thead>
+                    <tr>
+                        <th style="width: 30%;">Attribute</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Direct</td>
+                        <td>Get to the point. No fluff, no padding. Respect the reader's time.</td>
+                    </tr>
+                    <tr>
+                        <td>Personal</td>
+                        <td>First person. Share real experiences and mistakes. "I" not "one should."</td>
+                    </tr>
+                    <tr>
+                        <td>Practical</td>
+                        <td>Actionable over theoretical. "Here's what to do" not "here's what to consider."</td>
+                    </tr>
+                    <tr>
+                        <td>Humble</td>
+                        <td>Acknowledge uncertainty. "This worked for me" not "this is the only way."</td>
+                    </tr>
+                    <tr>
+                        <td>Encouraging</td>
+                        <td>Supportive without being patronizing. Assume intelligence, offer guidance.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="guidelines-grid">
+                <div class="guideline-card do">
+                    <h4>✓ Do</h4>
+                    <ul>
+                        <li>Use conversational language</li>
+                        <li>Share specific examples from your life</li>
+                        <li>Acknowledge when you got it wrong</li>
+                        <li>Give concrete, actionable steps</li>
+                        <li>Write like you're talking to your kids</li>
+                    </ul>
+                </div>
+                <div class="guideline-card dont">
+                    <h4>✕ Don't</h4>
+                    <ul>
+                        <li>Use jargon without explaining it</li>
+                        <li>Preach or lecture</li>
+                        <li>Promise guaranteed results</li>
+                        <li>Be cynical or dismissive</li>
+                        <li>Over-qualify every statement</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Logo Usage -->
+        <section>
+            <h2>Logo Usage</h2>
+            <p class="section-intro">The TG compass logo represents direction and wisdom. The banner expands this with icons representing each pillar.</p>
+
+            <div class="guidelines-grid">
+                <div class="guideline-card do">
+                    <h4>✓ Do</h4>
+                    <ul>
+                        <li>Use on dark backgrounds (charcoal, gunmetal)</li>
+                        <li>Maintain clear space around the logo</li>
+                        <li>Use the full-color version when possible</li>
+                        <li>Scale proportionally</li>
+                    </ul>
+                </div>
+                <div class="guideline-card dont">
+                    <h4>✕ Don't</h4>
+                    <ul>
+                        <li>Place on busy or low-contrast backgrounds</li>
+                        <li>Stretch or distort</li>
+                        <li>Add effects (drop shadows, glows)</li>
+                        <li>Recreate or modify the logo elements</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h3>File Formats Needed</h3>
+            <div class="type-specimen">
+                <ul style="list-style: none; font-size: 0.9375rem; color: var(--color-slate);">
+                    <li style="margin-bottom: 8px;"><strong>TG_Logo.png</strong> — Square, transparent background (for profile pictures)</li>
+                    <li style="margin-bottom: 8px;"><strong>TG_Logo_Dark.png</strong> — On charcoal background (for light interfaces)</li>
+                    <li style="margin-bottom: 8px;"><strong>TG_Banner.png</strong> — Full width banner (2560 x 1440 for YouTube)</li>
+                    <li><strong>TG_Favicon.ico</strong> — 32x32 and 16x16 for browser tabs</li>
+                </ul>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Quick Reference -->
+        <section>
+            <h2>Quick Reference</h2>
+            
+            <div class="type-specimen">
+                <div class="specimen-label">CSS Variables</div>
+                <div class="specimen-mono" style="white-space: pre-wrap; font-size: 0.8125rem;">--color-charcoal: #1E1E1E;
+--color-gunmetal: #2A2A2A;
+--color-bronze: #B8860B;
+--color-bronze-light: #D4A84B;
+--color-gold: #C9A227;
+--color-warm-white: #F5F3EF;
+--color-cream: #EDE8E0;
+--color-stone: #9A9590;
+
+--font-display: 'Libre Baskerville', Georgia, serif;
+--font-body: 'DM Sans', sans-serif;</div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

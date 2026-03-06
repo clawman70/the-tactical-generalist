@@ -14,6 +14,7 @@ The site serves as a central hub connecting all content across platforms, primar
 2. **Business & Career** — Networking, leadership, navigating corporate life
 3. **Practical Life Skills** — Cooking techniques, home maintenance, travel tips, family recipes
 4. **Philosophy & Mindset** — Gratitude, resilience, decision-making, maintaining perspective
+5. **Field Notes** — Personal observations, quirky stories, and wandering thoughts that don't fit neatly anywhere else
 
 ## Target Audience
 Young adults in their late teens through late twenties navigating the transition to full independence — though the advice is designed to be timeless and applicable to anyone building a life.

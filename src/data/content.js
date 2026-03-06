@@ -1,3 +1,6 @@
+// Tailwind safelist — keep these classes from being purged:
+// bg-error/20 border-error/40 text-error
+
 /**
  * Static content feed data.
  * To update the site, edit this array — no other files needed.
@@ -236,9 +239,9 @@ export const pillarStyles = {
     label: 'Philosophy & Mindset',
   },
   fieldnotes: {
-    bg: 'bg-forest/20',
-    border: 'border-forest/40',
-    text: 'text-sage-light',
+    bg: 'bg-error/20',
+    border: 'border-error/40',
+    text: 'text-error',
     label: 'Field Notes',
   },
 };

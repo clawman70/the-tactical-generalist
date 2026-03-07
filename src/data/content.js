@@ -207,6 +207,18 @@ export const latestContent = [
     keywords: ["sugar ants in house funny", "dealing with ants at home", "funny home observation stories", "childhood memory story", "ant problem humor", "slice of life writing"],
     metaDescription: "Six sugar ants on my bathroom sink sent me back 42 years to my grandma's kitchen — and the only time in my life I ever heard her swear. A story about ants, memory, and a war that never ends.",
   },
+  {
+    title: "I've Put In Enough Miles",
+    pillar: "fieldnotes",
+    format: "written",
+    url: "https://thetacticalgeneralist.substack.com/p/ive-put-in-enough-miles",
+    description: "A kid on an electric bike whose legs weren't moving sent me back through every bicycle I've ever owned — and every crash, hill, and hard-won mile that came with them.",
+    date: "2026-03-06",
+    slug: "ive-put-in-enough-miles",
+    excerpt: `Glancing over at a crosswalk, I noticed a kid on what I thought was a moped. Full motorcycle helmet, chin guard, face shield, the whole setup. Took me another second to realize he was on a bike. An electric bike. And his legs weren't moving. Not even a little.\n\nI grew up when you had to pedal.\n\nMy first bike was geared so low it required the quads of an Olympian just to get moving. Once you got up to speed, you were fine, but those first few strokes felt like pushing through wet concrete. We lived on a hill, which is great going down. Going up sucked. I'd weave back and forth in a serpentine pattern, fighting the grade, and half the time I'd give up and just push the thing. Nobody offered to motor me up.`,
+    keywords: ["cycling memories growing up", "electric bikes vs pedal bikes", "childhood bicycle stories", "life lessons from cycling", "nostalgia and growing older", "letting go of old hobbies"],
+    metaDescription: "A kid on an electric bike whose legs weren't moving sent me through every bicycle I've ever owned — and why I've finally decided I've put in enough miles.",
+  },
 ];
 
 /**

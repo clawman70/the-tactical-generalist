@@ -6,7 +6,7 @@ This file contains all published articles with SEO-optimized slugs, excerpts, ke
 
 **Notes:**
 - Recipes are intentionally excluded — Easter eggs on Substack only
-- "I've Put In Enough Miles" and "The Blueprint" publish this weekend — add when live
+- "The Blueprint" publishes this weekend — add when live
 - All "Life & Observations" articles are mapped to pillar key: `fieldnotes`
 
 ---
@@ -316,20 +316,26 @@ She was a diminutive woman. Kindness always in her heart. Always encouraging. Bu
 
 ---
 
-## COMING THIS WEEKEND — ADD WHEN LIVE
-
----
-
 ### Article: I've Put In Enough Miles
-**subtitle:** TBD — add when published
+**subtitle:** From pedal bikes to 407 horsepower — and every crash in between
 **pillar:** fieldnotes
 **date:** 2026-03-06
 **slug:** ive-put-in-enough-miles
 **url:** https://thetacticalgeneralist.substack.com/p/ive-put-in-enough-miles
-**description:** TBD — add when published
-**metaDescription:** TBD — add when published
-**keywords:** TBD
-**excerpt:** TBD — paste opening paragraphs when article goes live
+**description:** A kid on an electric bike whose legs weren't moving sent me back through every bicycle I've ever owned — and every crash, hill, and hard-won mile that came with them.
+**metaDescription:** A kid on an electric bike whose legs weren't moving sent me through every bicycle I've ever owned — and why I've finally decided I've put in enough miles.
+**keywords:** cycling memories growing up, electric bikes vs pedal bikes, childhood bicycle stories, life lessons from cycling, nostalgia and growing older, letting go of old hobbies
+
+**excerpt:**
+Glancing over at a crosswalk, I noticed a kid on what I thought was a moped. Full motorcycle helmet, chin guard, face shield, the whole setup. Took me another second to realize he was on a bike. An electric bike. And his legs weren't moving. Not even a little.
+
+I grew up when you had to pedal.
+
+My first bike was geared so low it required the quads of an Olympian just to get moving. Once you got up to speed, you were fine, but those first few strokes felt like pushing through wet concrete. We lived on a hill, which is great going down. Going up sucked. I'd weave back and forth in a serpentine pattern, fighting the grade, and half the time I'd give up and just push the thing. Nobody offered to motor me up.
+
+---
+
+## COMING THIS WEEKEND — ADD WHEN LIVE
 
 ---
 
@@ -354,5 +360,5 @@ She was a diminutive woman. Kindness always in her heart. Always encouraging. Bu
 | Business & Career | 5 | Ready |
 | Life Skills | 1 (+1 this weekend) | Ready + pending |
 | Philosophy & Mindset | 2 | Ready |
-| Field Notes | 4 (+1 this weekend) | Ready + pending |
-| **Total** | **15 live, 2 pending** | |
+| Field Notes | 5 (+0 pending) | Ready |
+| **Total** | **16 live, 1 pending** | |

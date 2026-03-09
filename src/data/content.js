@@ -117,6 +117,18 @@ export const latestContent = [
     keywords: ["how to be effective at work not just smart", "career lessons learned the hard way", "workplace humility lessons", "MBA overconfidence career mistakes", "being right vs being effective", "professional self-awareness"],
     metaDescription: "Being right isn't enough. A hard lesson from early in my career about the difference between being smart and being effective — and what MBA swagger actually costs you.",
   },
+  {
+    title: "Competent People Make the Best Mistakes",
+    pillar: "career",
+    format: "written",
+    url: "https://thetacticalgeneralist.substack.com/p/competent-people-make-the-best-mistakes",
+    description: "Nearly every major travel disaster in our marriage traces back to the same root cause: I'm a competent, experienced traveler who occasionally does something spectacularly stupid.",
+    date: "2026-03-08",
+    slug: "competent-people-make-the-best-mistakes",
+    excerpt: `"We have a problem."\n\nI've said those words to my wife more times than I care to admit. Usually, she already knows I'm the problem. Sometimes she asks anyway. "How did you let this happen? Were you not paying attention?" She knows me well enough to know the answer to that question.\n\nNearly every major travel disaster in our marriage traces back to the same root cause: I'm a competent, experienced traveler who occasionally does something spectacularly stupid. I've learned from most of my mistakes. Some I've learned more than once.`,
+    keywords: ["travel mistakes funny stories", "competence vs perfection", "learning from mistakes at work", "experienced traveler mistakes", "professional humility lessons", "owning your mistakes"],
+    metaDescription: "Nearly every major travel disaster in our marriage traces back to the same root cause: I'm a competent traveler who occasionally does something spectacularly stupid.",
+  },
 
   // ─── LIFE SKILLS ──────────────────────────────────────────────────
   {
@@ -130,6 +142,18 @@ export const latestContent = [
     excerpt: `Steak cooking techniques are very subjective, and I've tried many: standard gas grill, charcoal, sous vide, cast iron skillet, reverse sear, and reverse sear in a smoker. Of all these methods, my favorite is reverse sear in the smoker, followed by a standard reverse sear and finally sous vide.\n\nAll of these methods use low heat to bring the steak up to about 108–110 degrees (F) before hitting it with high heat for the sear. This gives you more control and reduces your likelihood of overcooking, because we all know that a warm red center is what we're going for.\n\nSo why reverse sear over sous vide? One word: crust. When you reverse sear, the outside of the steak dries out naturally during the low-heat phase. You don't have to pat it dry the way you do with sous vide. That dry surface creates a much better Maillard reaction, resulting in a crispier, more caramelized exterior.`,
     keywords: ["how to reverse sear a steak", "best way to cook steak at home", "reverse sear vs sous vide steak", "how to get a good crust on steak", "steak cooking methods compared", "perfect steak guide"],
     metaDescription: "The reverse sear method produces a better steak than sous vide, cast iron, or any grill. Here's exactly how to do it — and why the crust makes all the difference.",
+  },
+  {
+    title: "The Blueprint: What I've Learned After Eleven Years in the Gym",
+    pillar: "lifeskills",
+    format: "written",
+    url: "https://thetacticalgeneralist.substack.com/p/the-blueprint",
+    description: "For four years I watched American Ninja Warrior from my couch and said the same thing: \"If I were younger.\" Then I stopped saying it. Here's the system that stuck after eleven years.",
+    date: "2026-03-07",
+    slug: "fitness-blueprint-eleven-years-gym",
+    excerpt: `For about four years, I sat on my couch and watched American Ninja Warrior with my kids and said the same thing every single time: "If I were younger, I'd be able to do that."\n\nYear one. "If I were younger."\n\nYear two. "If I were younger."\n\nYear three. Same couch. Same line. My kids had probably stopped listening somewhere around year two.`,
+    keywords: ["fitness after 40 beginner guide", "simple gym routine that works", "consistency over complexity fitness", "American Ninja Warrior inspiration", "long term fitness habits", "workout routine for busy adults"],
+    metaDescription: "For four years I said \"if I were younger\" from the couch. Then I stopped. Here's the no-nonsense fitness system that stuck after eleven years in the gym.",
   },
 
   // ─── PHILOSOPHY & MINDSET ─────────────────────────────────────────

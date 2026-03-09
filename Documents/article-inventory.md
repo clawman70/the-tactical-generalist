@@ -6,7 +6,7 @@ This file contains all published articles with SEO-optimized slugs, excerpts, ke
 
 **Notes:**
 - Recipes are intentionally excluded — Easter eggs on Substack only
-- "The Blueprint" publishes this weekend — add when live
+- All current articles are live
 - All "Life & Observations" articles are mapped to pillar key: `fieldnotes`
 
 ---
@@ -192,6 +192,27 @@ So why reverse sear over sous vide? One word: crust. When you reverse sear, the 
 
 ---
 
+### Article: The Blueprint: What I've Learned After Eleven Years in the Gym
+**subtitle:** A no-nonsense system built on consistency, not complexity
+**pillar:** lifeskills
+**date:** 2026-03-07
+**slug:** fitness-blueprint-eleven-years-gym
+**url:** https://thetacticalgeneralist.substack.com/p/the-blueprint
+**description:** For four years I watched American Ninja Warrior from my couch and said the same thing: "If I were younger." Then I stopped saying it. Here's the system that stuck after eleven years.
+**metaDescription:** For four years I said "if I were younger" from the couch. Then I stopped. Here's the no-nonsense fitness system that stuck after eleven years in the gym.
+**keywords:** fitness after 40 beginner guide, simple gym routine that works, consistency over complexity fitness, American Ninja Warrior inspiration, long term fitness habits, workout routine for busy adults
+
+**excerpt:**
+For about four years, I sat on my couch and watched American Ninja Warrior with my kids and said the same thing every single time: "If I were younger, I'd be able to do that."
+
+Year one. "If I were younger."
+
+Year two. "If I were younger."
+
+Year three. Same couch. Same line. My kids had probably stopped listening somewhere around year two.
+
+---
+
 ## PHILOSOPHY & MINDSET
 
 ---
@@ -335,20 +356,22 @@ My first bike was geared so low it required the quads of an Olympian just to get
 
 ---
 
-## COMING THIS WEEKEND — ADD WHEN LIVE
+### Article: Competent People Make the Best Mistakes
+**subtitle:** What missed flights and blown connections taught me about the difference between competence and perfection
+**pillar:** career
+**date:** 2026-03-08
+**slug:** competent-people-make-the-best-mistakes
+**url:** https://thetacticalgeneralist.substack.com/p/competent-people-make-the-best-mistakes
+**description:** Nearly every major travel disaster in our marriage traces back to the same root cause: I'm a competent, experienced traveler who occasionally does something spectacularly stupid.
+**metaDescription:** Nearly every major travel disaster in our marriage traces back to the same root cause: I'm a competent traveler who occasionally does something spectacularly stupid.
+**keywords:** travel mistakes funny stories, competence vs perfection, learning from mistakes at work, experienced traveler mistakes, professional humility lessons, owning your mistakes
 
----
+**excerpt:**
+"We have a problem."
 
-### Article: The Blueprint: What I've Learned After Eleven Years in the Gym
-**subtitle:** A no-nonsense system built on consistency, not complexity
-**pillar:** lifeskills
-**date:** 2026-03-07
-**slug:** fitness-blueprint-eleven-years-gym
-**url:** https://thetacticalgeneralist.substack.com/p/fitness-blueprint
-**description:** TBD — add when published
-**metaDescription:** TBD — add when published
-**keywords:** TBD
-**excerpt:** TBD — paste opening paragraphs when article goes live
+I've said those words to my wife more times than I care to admit. Usually, she already knows I'm the problem. Sometimes she asks anyway. "How did you let this happen? Were you not paying attention?" She knows me well enough to know the answer to that question.
+
+Nearly every major travel disaster in our marriage traces back to the same root cause: I'm a competent, experienced traveler who occasionally does something spectacularly stupid. I've learned from most of my mistakes. Some I've learned more than once.
 
 ---
 
@@ -357,8 +380,8 @@ My first bike was geared so low it required the quads of an Olympian just to get
 | Pillar | Count | Status |
 |--------|-------|--------|
 | Personal Finance | 3 | Ready |
-| Business & Career | 5 | Ready |
-| Life Skills | 1 (+1 this weekend) | Ready + pending |
+| Business & Career | 6 | Ready |
+| Life Skills | 2 | Ready |
 | Philosophy & Mindset | 2 | Ready |
-| Field Notes | 5 (+0 pending) | Ready |
-| **Total** | **16 live, 1 pending** | |
+| Field Notes | 5 | Ready |
+| **Total** | **18 live** | |

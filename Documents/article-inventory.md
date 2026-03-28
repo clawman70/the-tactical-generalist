@@ -375,13 +375,354 @@ Nearly every major travel disaster in our marriage traces back to the same root 
 
 ---
 
+### Article: AI Wanted. Human Required.
+**subtitle:** AI is here, it's powerful, and it's not going anywhere. Here's why that's not the threat you think it is, and what to do about it.
+**pillar:** career
+**date:** 2026-03-12
+**slug:** ai-wanted-human-required
+**url:** https://thetacticalgeneralist.substack.com/p/ai-wanted-human-required
+**description:** AI is Sheldon Cooper — off-the-charts IQ, zero awareness that the room has feelings. Here's why that matters and what to do about it.
+**metaDescription:** AI is powerful but can't tell you when to stop building or why a joke lands. Here's what daily AI use taught me about what humans still bring to the table.
+**keywords:** AI in the workplace, human vs AI skills, AI limitations practical examples, how to use AI effectively at work, AI and human collaboration, future of work with AI
+
+**excerpt:**
+I asked an AI if my AI-written article was funny. It said yes. We'll get to that.
+
+I'm normally an early adopter. Palm Pilot. First-generation Roku. Gmail when it was still invite-only. LinkedIn before it replaced Facebook. I've always had a decent nose for what was coming next.
+
+Then AI hit, and I was somewhere else entirely. I was on sabbatical. Building a greenhouse. Getting reacquainted with the garden, old friends, and a slower pace. I checked in on it occasionally, "all right, this is interesting," and went back to whatever I was doing. I used it like most people do: as a slightly smarter search engine. I generated some funny pictures. It didn't move the dial.
+
+---
+
+### Article: Nobody Asks What You Want to Do When You Grow Up
+**subtitle:** On the trap of letting your job title become your identity, and what it costs you when the title goes away
+**pillar:** career
+**date:** 2026-03-23
+**slug:** nobody-asks-what-you-want-to-do
+**url:** https://thetacticalgeneralist.substack.com/p/nobody-asks-what-you-want-to-do-when
+**description:** The question was never what I wanted to do. It was what I wanted to be. It took thirty years to understand the cost of fusing my identity to a job title.
+**metaDescription:** The question was always what I wanted to be, not do. Three decades and two layoffs taught me the cost of fusing identity to a job title.
+**keywords:** career identity crisis, job title vs personal identity, layoff recovery mindset, who am I without my job, career lessons from being laid off, professional identity beyond title
+
+**excerpt:**
+Nobody ever asked me what I wanted to do when I grew up.
+
+The question was always what I wanted to be. The answer, delivered with the confidence only a child can muster, was always the same: a scientist. Not "I want to do science." I wanted to be a scientist. There's a difference, and it took me about thirty years to understand why that matters.
+
+I never became a scientist. I studied science in college, learned the scientific method, and then wandered into the world of technology sales. There I spent the next three decades doing things that have nothing to do with a laboratory. Here's the thing: I never stopped being a scientist. I apply the scientific method to problems constantly. I form hypotheses. I test them. I look for patterns in the data. I just do it in conference rooms instead of labs. The scientist followed me into the career, even when the career didn't know it.
+
+---
+
+## LIFE SKILLS
+
+---
+
+### Article: How to Cook the Perfect Steak
+**subtitle:** A reverse sear guide from The Tactical Generalist
+**pillar:** lifeskills
+**date:** 2026-02-22
+**slug:** how-to-cook-the-perfect-steak
+**url:** https://thetacticalgeneralist.substack.com/p/how-to-cook-the-perfect-steak
+**description:** After years of testing every method — gas grill, charcoal, sous vide, cast iron, reverse sear — here's the one that wins every time.
+**metaDescription:** The reverse sear method produces a better steak than sous vide, cast iron, or any grill. Here's exactly how to do it — and why the crust makes all the difference.
+**keywords:** how to reverse sear a steak, best way to cook steak at home, reverse sear vs sous vide steak, how to get a good crust on steak, steak cooking methods compared, perfect steak guide
+
+**excerpt:**
+Steak cooking techniques are very subjective, and I've tried many: standard gas grill, charcoal, sous vide, cast iron skillet, reverse sear, and reverse sear in a smoker. Of all these methods, my favorite is reverse sear in the smoker, followed by a standard reverse sear and finally sous vide.
+
+All of these methods use low heat to bring the steak up to about 108–110 degrees (F) before hitting it with high heat for the sear. This gives you more control and reduces your likelihood of overcooking, because we all know that a warm red center is what we're going for.
+
+So why reverse sear over sous vide? One word: crust. When you reverse sear, the outside of the steak dries out naturally during the low-heat phase. You don't have to pat it dry the way you do with sous vide. That dry surface creates a much better Maillard reaction, resulting in a crispier, more caramelized exterior.
+
+---
+
+### Article: The Blueprint: What I've Learned After Eleven Years in the Gym
+**subtitle:** A no-nonsense system built on consistency, not complexity
+**pillar:** lifeskills
+**date:** 2026-03-07
+**slug:** fitness-blueprint-eleven-years-gym
+**url:** https://thetacticalgeneralist.substack.com/p/the-blueprint
+**description:** For four years I watched American Ninja Warrior from my couch and said the same thing: "If I were younger." Then I stopped saying it. Here's the system that stuck after eleven years.
+**metaDescription:** For four years I said "if I were younger" from the couch. Then I stopped. Here's the no-nonsense fitness system that stuck after eleven years in the gym.
+**keywords:** fitness after 40 beginner guide, simple gym routine that works, consistency over complexity fitness, American Ninja Warrior inspiration, long term fitness habits, workout routine for busy adults
+
+**excerpt:**
+For about four years, I sat on my couch and watched American Ninja Warrior with my kids and said the same thing every single time: "If I were younger, I'd be able to do that."
+
+Year one. "If I were younger."
+
+Year two. "If I were younger."
+
+Year three. Same couch. Same line. My kids had probably stopped listening somewhere around year two.
+
+---
+
+## PHILOSOPHY & MINDSET
+
+---
+
+### Article: Push Your Happiness Button Often
+**subtitle:** What a BMW feature taught me about happiness
+**pillar:** mindset
+**date:** 2026-02-22
+**slug:** push-your-happiness-button
+**url:** https://thetacticalgeneralist.substack.com/p/push-your-happiness-button-often
+**description:** Happiness doesn't have to be expensive. A 2002 Miata and a lesson about what actually makes life feel good.
+**metaDescription:** A 2002 Miata bought for $8,500 taught me more about happiness than any expensive purchase I've ever made. Here's the lesson I keep coming back to.
+**keywords:** how to be happier in everyday life, finding joy in simple things, happiness doesn't have to be expensive, mindset for happiness, gratitude and joy, living a fulfilling life
+
+**excerpt:**
+One of my favorite cars I ever owned was a 2002 Mazda Miata NB. I picked it up in 2015 for $8,500 with only 12,000 miles on the odometer. It felt like driving a go-kart whenever I took it out, and on nice spring, fall, and winter days there was nothing to compare to the joy I felt putting the top down and feeling the sun on my face.
+
+Unfortunately, with three children still in the house I needed something bigger with a backseat, so in 2018 I traded it in for something more "practical": a 2009 E92 BMW M3 Convertible with only 22,000 miles on the odometer.
+
+Driving the M3 was a significantly different experience than driving the Miata. What I lost in agility and being able to nimbly whip around corners I made up for in speed, acceleration, handling, and stability.
+
+---
+
+### Article: I'm Already Rich
+**subtitle:** A father's reflection on gratitude
+**pillar:** mindset
+**date:** 2026-02-24
+**slug:** im-already-rich
+**url:** https://thetacticalgeneralist.substack.com/p/im-already-rich
+**description:** When I was in my twenties I told my dad there was still time for him to become wealthy. He looked at me and said: "Jeff, I'm already rich." It took me decades to understand what he meant.
+**metaDescription:** My dad didn't have much in the way of earthly possessions. But when I told him there was still time to build wealth, he said "I'm already rich." It took me 30 years to understand that.
+**keywords:** gratitude mindset lessons, what does it mean to be rich, wealth vs happiness, finding meaning beyond money, father son lessons, perspective on success and wealth
+
+**excerpt:**
+When my dad turned 50, I said something to him that I thought was encouraging. I was in my early twenties and had just read that the decade between 50 and 60 was when men's earning potential peaked and they really started to accumulate wealth. I remember looking at him and saying, "Dad, there's still a chance for you to become wealthy."
+
+My dad was comfortable, owned a home, and had the necessities of life, but he didn't have a lot of earthly possessions. I remember him turning to me and saying, "Jeff, I'm already rich."
+
+At the time, I didn't fully understand what he meant. He didn't have the house, the portfolio, the savings that I associated with being rich — but he had his family, his health, and a life he was grateful for.
+
+---
+
+## FIELD NOTES
+
+---
+
+### Article: My Wife Says I Keep a Mark Wahlberg Schedule
+**subtitle:** What 30 years of mismatched sleep schedules actually teaches you about marriage
+**pillar:** fieldnotes
+**date:** 2026-02-25
+**slug:** mark-wahlberg-schedule
+**url:** https://thetacticalgeneralist.substack.com/p/my-wife-says-i-keep-a-mark-wahlberg
+**description:** She said it half laughing, half not. "You keep a Mark Wahlberg schedule." She's not wrong — and after 30 years, here's what that's actually taught us.
+**metaDescription:** My wife says I keep a Mark Wahlberg schedule. She's not wrong. After 30 years of mismatched sleep cycles, here's what we've actually learned about biology, marriage, and finding the overlap.
+**keywords:** morning person vs night owl marriage, mismatched sleep schedules couples, circadian rhythm relationships, how to manage different sleep schedules, early riser marriage advice, Mark Wahlberg sleep schedule
+
+**excerpt:**
+She said it the other day, half laughing, half not. "You know, it's really hard being married to someone who keeps a Mark Wahlberg schedule."
+
+She's not wrong. Mark Wahlberg is famously up at 2:30 or 3am, and he's in bed by 7:30pm. I give myself a bit more runway — I try to stay up until at least 9:30 and I'm usually awake by 4am — but the spirit of the comparison lands. I am, by any reasonable definition, an extreme lark. Morning person doesn't begin to cover it.
+
+My wife is not.
+
+We've been navigating this for over 30 years, and here's what I've learned: you can't fix biology, but you can work with it.
+
+---
+
+### Article: I Used to Be Three Different People
+**subtitle:** Church-Jeff, work-Jeff, and home-Jeff walked into a pandemic. Only one came out.
+**pillar:** fieldnotes
+**date:** 2026-02-26
+**slug:** three-different-people
+**url:** https://thetacticalgeneralist.substack.com/p/three-different-people
+**description:** For most of my adult life I showed up as three different versions of myself depending on the room. The pandemic collapsed all three into one. Turns out that's the better way.
+**metaDescription:** I spent most of my adult life showing up as three different people — church-Jeff, work-Jeff, and home-Jeff. The pandemic collapsed all three into one. It turned out to be the most authentic I've ever been.
+**keywords:** authenticity at work and home, how to be more authentic, different personas at work vs home, pandemic self discovery, being yourself in all situations, authenticity and identity
+
+**excerpt:**
+I've spent most of my adult life showing up as three different people.
+
+There was church-Jeff. White shirt and tie, often a suit, neatly groomed. That version never said anything too casual or too direct. He was measured, presentable, and almost entirely unlike the person who drove to church that morning.
+
+There was work-Jeff. Button-down shirt, slacks, clean-shaven, well coiffed. He was strategic about what he said and who he said it to. He wore a sport coat when the role seemed to call for it and told people what he thought they wanted to hear more often than what he actually thought.
+
+---
+
+### Article: Parent Homework Never Ends
+**subtitle:** Just when you think you've graduated, you find out there's no such thing
+**pillar:** fieldnotes
+**date:** 2026-03-01
+**slug:** parent-homework-never-ends
+**url:** https://thetacticalgeneralist.substack.com/p/parent-homework
+**description:** My daughter needed someone to record French audio for a linguistics assignment. She called her dad. I thought I was done with parent homework. I was wrong.
+**metaDescription:** I'm fluent in French — or was. When my college daughter needed French audio recordings for a linguistics class, she called me. I thought I'd graduated from parent homework. I hadn't.
+**keywords:** parenting adult children, parent homework funny stories, being a parent never ends, college kid still needs parents, parenting humor, funny parenting observations
+
+**excerpt:**
+I'm fluent in French, or at least I used to be. My accent is still very good, but a lot of the vocabulary has leaked out of my brain after 35 years of not having lived in France. When I do get back to France, it tends to return quickly — people keep commenting on how good my accent is, at least until they realize my vocabulary is limited to what you'd find in a children's book.
+
+So when my daughter, who is in college, needed someone to record 10 to 12 distinct topical blurbs in a foreign language for her linguistics class, she called me. She could have found somebody on campus who spoke another language, but instead she figured it might be easier if her dad did it. She knew my accent was good, and she knew I'd say yes.
+
+She was right on both counts.
+
+---
+
+### Article: "Those Damn Ants"
+**subtitle:** A fifty-year running war, told from the bathroom sink where it still isn't over
+**pillar:** fieldnotes
+**date:** 2026-03-04
+**slug:** those-damn-ants
+**url:** https://thetacticalgeneralist.substack.com/p/those-damn-ants
+**description:** Six sugar ants on a bathroom sink sent me back forty-two years to my grandma's kitchen and the only time I ever heard her swear. The war continues.
+**metaDescription:** Six sugar ants on my bathroom sink sent me back 42 years to my grandma's kitchen — and the only time in my life I ever heard her swear. A story about ants, memory, and a war that never ends.
+**keywords:** sugar ants in house funny, dealing with ants at home, funny home observation stories, childhood memory story, ant problem humor, slice of life writing
+
+**excerpt:**
+I was getting ready to brush my teeth when I saw them. Six, maybe eight little sugar ants making their way across my bathroom sink. They acted like they owned the place. I stood there for a second, toothbrush in hand, watching them. I don't know what they were after. Toothpaste, maybe. I have no idea what ants want.
+
+What I do know is that the sight of those ants sent me back forty-two years in an instant, to my grandma's kitchen, and the only time in my life I ever heard her swear.
+
+She was a diminutive woman. Kindness always in her heart. Always encouraging. But sugar ants had gotten into her cupboard, and standing there in her kitchen, she had had enough.
+
+---
+
+### Article: I've Put In Enough Miles
+**subtitle:** From pedal bikes to 407 horsepower — and every crash in between
+**pillar:** fieldnotes
+**date:** 2026-03-06
+**slug:** ive-put-in-enough-miles
+**url:** https://thetacticalgeneralist.substack.com/p/ive-put-in-enough-miles
+**description:** A kid on an electric bike whose legs weren't moving sent me back through every bicycle I've ever owned — and every crash, hill, and hard-won mile that came with them.
+**metaDescription:** A kid on an electric bike whose legs weren't moving sent me through every bicycle I've ever owned — and why I've finally decided I've put in enough miles.
+**keywords:** cycling memories growing up, electric bikes vs pedal bikes, childhood bicycle stories, life lessons from cycling, nostalgia and growing older, letting go of old hobbies
+
+**excerpt:**
+Glancing over at a crosswalk, I noticed a kid on what I thought was a moped. Full motorcycle helmet, chin guard, face shield, the whole setup. Took me another second to realize he was on a bike. An electric bike. And his legs weren't moving. Not even a little.
+
+I grew up when you had to pedal.
+
+My first bike was geared so low it required the quads of an Olympian just to get moving. Once you got up to speed, you were fine, but those first few strokes felt like pushing through wet concrete. We lived on a hill, which is great going down. Going up sucked. I'd weave back and forth in a serpentine pattern, fighting the grade, and half the time I'd give up and just push the thing. Nobody offered to motor me up.
+
+---
+
+### Article: Competent People Make the Best Mistakes
+**subtitle:** What missed flights and blown connections taught me about the difference between competence and perfection
+**pillar:** career
+**date:** 2026-03-08
+**slug:** competent-people-make-the-best-mistakes
+**url:** https://thetacticalgeneralist.substack.com/p/competent-people-make-the-best-mistakes
+**description:** Nearly every major travel disaster in our marriage traces back to the same root cause: I'm a competent, experienced traveler who occasionally does something spectacularly stupid.
+**metaDescription:** Nearly every major travel disaster in our marriage traces back to the same root cause: I'm a competent traveler who occasionally does something spectacularly stupid.
+**keywords:** travel mistakes funny stories, competence vs perfection, learning from mistakes at work, experienced traveler mistakes, professional humility lessons, owning your mistakes
+
+**excerpt:**
+"We have a problem."
+
+I've said those words to my wife more times than I care to admit. Usually, she already knows I'm the problem. Sometimes she asks anyway. "How did you let this happen? Were you not paying attention?" She knows me well enough to know the answer to that question.
+
+Nearly every major travel disaster in our marriage traces back to the same root cause: I'm a competent, experienced traveler who occasionally does something spectacularly stupid. I've learned from most of my mistakes. Some I've learned more than once.
+
+---
+
+### Article: Everything I Know About Airports I Learned the Hard Way
+**subtitle:** A frequent traveler's field guide to airport security, told through protein powder, cinnamon bears, a lost tablet, and the slow, painful discovery of TSA PreCheck.
+**pillar:** fieldnotes
+**date:** 2026-03-10
+**slug:** everything-i-know-about-airports
+**url:** https://thetacticalgeneralist.substack.com/p/everything-i-know-about-airports
+**description:** From protein powder flagged as explosives to a five-pound bag of cinnamon bears, every airport lesson I've learned came with a story I didn't plan on telling.
+**metaDescription:** A frequent traveler's field guide to airport security, told through protein powder, cinnamon bears, a lost tablet, and the discovery of TSA PreCheck.
+**keywords:** frequent traveler airport tips, TSA PreCheck worth it, funny airport security stories, travel lessons learned hard way, airport security mistakes humor, business traveler tips
+
+**excerpt:**
+The blender bottle comes out of the bag first. Always. That's the system.
+
+Inside it: Ziploc bags of Optimum Nutrition Vanilla protein powder, Ziploc bags of Costco Chocolate protein powder, and some Bulk Supplements creatine. I pack the bags into the bottle, the bottle into the suitcase, and when I get to security I pull it out before anything else. Learned behavior, but still proactive. A model citizen of the TSA queue.
+
+About half the time, the agent glances at it and waves me through without a second thought. The other half of the time it gets pulled aside, swabbed and scrutinized, and most of those times it comes back clean. Twice, though, it hasn't come back clean. Twice, the machine has looked at my blender bottle full of protein and creatine and returned a verdict of: explosives.
+
+---
+
+### Article: We Don't Have a Springform Pan
+**subtitle:** A self-indictment in several courses: how one man's particular palate quietly shaped everything his family has ever eaten, done, or experienced
+**pillar:** fieldnotes
+**date:** 2026-03-12
+**slug:** we-dont-have-a-springform-pan
+**url:** https://thetacticalgeneralist.substack.com/p/we-dont-have-a-springform-pan
+**description:** My daughter wanted to make cheesecake. We didn't have the pan. It took about fifteen seconds for the whole room to understand whose fault that was.
+**metaDescription:** One man's particular palate has quietly shaped everything his family has ever eaten, done, or experienced. A self-indictment in several courses.
+**keywords:** picky eater family humor, food preferences shaping family life, funny family dinner stories, parenting and food choices, honest parenting observations, family humor essay
+
+**excerpt:**
+My daughter wanted to make a cheesecake. Simple enough request. She asked if we had a springform pan.
+
+We said we do. At least we used to.
+
+My wife went to look for it. It was gone. It took about fifteen seconds for the whole room to understand whose fault that was.
+
+I don't like cheesecake.
+
+---
+
+### Article: The Hobby Graveyard
+**subtitle:** Everything I've tried, almost nothing I've mastered, and zero regrets.
+**pillar:** fieldnotes
+**date:** 2026-03-20
+**slug:** the-hobby-graveyard
+**url:** https://thetacticalgeneralist.substack.com/p/the-hobby-graveyard
+**description:** A climbing rope in the office, an empty greenhouse in the yard, and a sourdough starter named Covey in the fridge. Everything I've tried, almost nothing I've mastered, and zero regrets.
+**metaDescription:** A climbing rope, an empty greenhouse, and a sourdough starter named Covey. Everything I've tried, almost nothing I've mastered, and zero regrets.
+**keywords:** hobby collecting no regrets, trying new hobbies pandemic, sourdough starter story, learning new skills as adult, hobby graveyard humor, jack of all trades lifestyle
+
+**excerpt:**
+A climbing rope hangs silently in my office. A greenhouse sits empty in my yard. A chalk-crusted hangboard is still visible in my gym. I have a variable bounty of old tablets and cell phones, all different makes and models. There are saws in the garage that no longer accumulate sawdust. And there's a sourdough starter that gets pulled out of the fridge once a month, fed, turned into a loaf, and placed back in the fridge until I remember he's there. His name is Covey.
+
+These are just a few of the many hobbies I've had in the past several years alone.
+
+It started, as so many things did, during the pandemic. I'd spent years traveling constantly for work, and suddenly I found myself with more time than I'd had in decades. I was sequestered to my house like everyone else, staring at the walls, looking for something to do.
+
+---
+
+### Article: Nobody Asks What You Want to Do When You Grow Up
+**subtitle:** On the trap of letting your job title become your identity, and what it costs you when the title goes away
+**pillar:** career
+**date:** 2026-03-23
+**slug:** nobody-asks-what-you-want-to-do
+**url:** https://thetacticalgeneralist.substack.com/p/nobody-asks-what-you-want-to-do-when
+**description:** The question was never what I wanted to do. It was what I wanted to be. It took thirty years to understand the cost of fusing my identity to a job title.
+**metaDescription:** The question was always what I wanted to be, not do. Three decades and two layoffs taught me the cost of fusing identity to a job title.
+**keywords:** career identity crisis, job title vs personal identity, layoff recovery mindset, who am I without my job, career lessons from being laid off, professional identity beyond title
+
+**excerpt:**
+Nobody ever asked me what I wanted to do when I grew up.
+
+The question was always what I wanted to be. The answer, delivered with the confidence only a child can muster, was always the same: a scientist. Not "I want to do science." I wanted to be a scientist. There's a difference, and it took me about thirty years to understand why that matters.
+
+I never became a scientist. I studied science in college, learned the scientific method, and then wandered into the world of technology sales. There I spent the next three decades doing things that have nothing to do with a laboratory. Here's the thing: I never stopped being a scientist. I apply the scientific method to problems constantly. I form hypotheses. I test them. I look for patterns in the data. I just do it in conference rooms instead of labs. The scientist followed me into the career, even when the career didn't know it.
+
+---
+
+### Article: Most People Think They're Birds
+**subtitle:** A field notes piece about a childhood home with a bat colony in the attic, a dad who woke his kid up to watch them come home, and a lifelong fascination that never went away.
+**pillar:** fieldnotes
+**date:** 2026-03-26
+**slug:** most-people-think-theyre-birds
+**url:** https://thetacticalgeneralist.substack.com/p/most-people-think-theyre-birds
+**description:** I grew up in a house with fifty bats in the attic. My dad woke me up before sunrise to watch them come home. I've never gotten over it.
+**metaDescription:** A childhood home with a bat colony in the attic, a dad who woke his kid up to watch them come home, and a fascination that never went away.
+**keywords:** bat colony childhood story, growing up with bats in the attic, father son nature memories, bat watching Texas, childhood nature experiences, wildlife observation essay
+
+**excerpt:**
+I grew up in a haunted house. Well, not haunted, exactly. Occupied.
+
+We rented a three or four bedroom place in Orem, Utah (I was somewhere between five and seven at the time) and every person in the family slept upstairs except for me. I was in the basement. (I've thought about this over the years. I'm still not sure what it means.)
+
+The house had bats in the attic. Fifty or sixty of them, best we could tell, tucked into some crevice that no exterminator could ever find. The attic access was a wooden-slat vent on the side of the house, no screening on the back, which is apparently all the invitation a bat colony needs. Every evening just before sunset, they'd pour out of that vent and scatter into the sky. The whole neighborhood would set up on our lawn to watch. It was the event of the day.
+
+---
+
 ## ARTICLE COUNT SUMMARY
 
 | Pillar | Count | Status |
 |--------|-------|--------|
 | Personal Finance | 3 | Ready |
-| Business & Career | 6 | Ready |
+| Business & Career | 8 | Ready |
 | Life Skills | 2 | Ready |
 | Philosophy & Mindset | 2 | Ready |
-| Field Notes | 5 | Ready |
-| **Total** | **18 live** | |
+| Field Notes | 9 | Ready |
+| **Total** | **24 live** | |

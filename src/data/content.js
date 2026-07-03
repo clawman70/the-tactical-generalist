@@ -20,6 +20,18 @@
 export const latestContent = [
   // ─── PERSONAL FINANCE ─────────────────────────────────────────────
   {
+    title: "Building the Opposite Muscle",
+    pillar: "finance",
+    format: "written",
+    url: "https://thetacticalgeneralist.substack.com/p/building-the-opposite-muscle",
+    description: "Thirty years of saving turned frugality into a personality. Now a $2,500 camera he can easily afford is the hardest purchase he can't quite make.",
+    date: "2026-06-25",
+    slug: "building-the-opposite-muscle",
+    excerpt: `I've been looking at the same camera for three months. It's a Sony a7C II. Full frame sensor, compact enough to fit in a jacket pocket, built for the kind of travel I'm planning to do more of. I've picked out the lens, a 20-70mm f4 that covers almost everything, and priced out the whole setup. Body plus lens, roughly $2,500. I can afford it. It's not even close to a difficult financial decision.\n\nAnd I still haven't pulled the trigger. Here's the thing about being a saver for thirty years: it stops being a behavior and starts being a personality.`,
+    keywords: ["learning to spend after years of saving", "saver mindset vs spender mindset", "financial independence spending guilt", "why savers struggle to spend money", "money mindset shift after decades saving", "personal finance psychology of spending"],
+    metaDescription: "After thirty years as a saver, buying a $2,500 camera he can easily afford is the hardest financial decision he's faced. Saving became a personality.",
+  },
+  {
     title: "The Accidental Money Machine",
     pillar: "finance",
     format: "written",
@@ -290,6 +302,18 @@ export const latestContent = [
 
   // ─── PHILOSOPHY & MINDSET ─────────────────────────────────────────
   {
+    title: "The Tortoise Doesn't Always Win",
+    pillar: "mindset",
+    format: "written",
+    url: "https://thetacticalgeneralist.substack.com/p/the-tortoise-doesnt-always-win",
+    description: "A thirty-two pound pack, an eighty pound twelve-year-old, and a brutal Boy Scout backpacking trip that taught him how to break impossible things into the next twenty yards.",
+    date: "2026-06-23",
+    slug: "the-tortoise-doesnt-always-win",
+    excerpt: `There is a photograph somewhere of me at twelve years old, standing at a trailhead in the Uintah Mountains with a backpack strapped to my frame. The pack weighed thirty-two pounds. I weighed just over eighty. Do that math and you'll understand why the first few miles felt less like hiking and more like an argument I was losing.\n\nI was part of a Boy Scout troop, and we had eleven or twelve miles ahead of us, somewhere between three and four thousand feet of elevation gain, ending at the tree line. I didn't tell anyone what I was doing, but I started setting goals. Not big ones. Just the next tree. The next switchback. My brain was loud the entire time: you're done, slow down, this is the part where you stop. And every time, I'd take one breath, find something to focus on twenty yards ahead, and keep moving.`,
+    keywords: ["breaking big goals into small steps", "Boy Scout backpacking life lessons", "mental resilience overcoming challenges", "perseverance through physical hardship", "goal setting incremental progress", "childhood lessons on grit and endurance"],
+    metaDescription: "A thirty-two pound pack on an eighty pound twelve-year-old, miles of elevation gain, and a mental trick learned on that trail that still works decades later.",
+  },
+  {
     title: "When the Game Changes",
     pillar: "mindset",
     format: "written",
@@ -351,6 +375,42 @@ export const latestContent = [
   },
 
   // ─── FIELD NOTES ──────────────────────────────────────────────────
+  {
+    title: "I Was Always Going to End Up There",
+    pillar: "fieldnotes",
+    format: "written",
+    url: "https://thetacticalgeneralist.substack.com/p/i-was-always-going-to-end-up-there",
+    description: "A Fourth of July fireworks show, blessed by his father in a church parking lot, becomes proof that some things were simply inevitable.",
+    date: "2026-07-02",
+    slug: "i-was-always-going-to-end-up-there",
+    excerpt: `I was standing in a church parking lot in Utah on the Fourth of July, on consecrated ground, next to my brother and my brother-in-law, lighting $1,000 worth of aerial fireworks. My father had blessed this enterprise. He was in a lawn chair with the extended family twenty feet away.\n\nI have thought carefully about how I got there, and I have concluded that it was inevitable.\n\nThe seeds were planted early.`,
+    keywords: ["family tradition passed down generations", "Fourth of July family stories", "how childhood shapes who you become", "family legacy and identity essay", "growing up into your family's habits", "nostalgic personal essay family traditions"],
+    metaDescription: "Lighting $1,000 of fireworks with his father's blessing, he realizes this moment was inevitable — the seeds were planted decades earlier.",
+  },
+  {
+    title: "End of an Era",
+    pillar: "fieldnotes",
+    format: "written",
+    url: "https://thetacticalgeneralist.substack.com/p/end-of-an-era",
+    description: "Tearing up the last school calendar after 23 years of raising four kids through the system — no ceremony, just recycling and a quiet reckoning with how fast it went.",
+    date: "2026-06-30",
+    slug: "end-of-an-era",
+    excerpt: `It happened on a Tuesday evening, maybe a Wednesday. I was on the couch, probably watching something, maybe scrolling through whatever YouTube algorithm had decided I needed that night. My wife came in holding a piece of paper, the 2025-2026 Keller ISD school calendar, looked at me, and said, "This is it."\n\nI said, "Yep. The last one." She tore it in half and put it in the recycling.\n\nThat was it. No ceremony, no tears, no pause to mark the moment. We'd gotten four kids from kindergarten to high school graduation. Twenty-three years of school calendars. Done.`,
+    keywords: ["empty nest last child graduates", "parenting milestones raising kids essay", "end of school years parenting reflection", "23 years raising kids reflection", "letting go of parenting chapter", "bittersweet parenting milestone story"],
+    metaDescription: "His wife tore up the last school calendar after 23 years of raising four kids through the system. No ceremony. Just recycling and the quiet end of an era.",
+  },
+  {
+    title: "My Life Without a Helmet",
+    pillar: "fieldnotes",
+    format: "written",
+    url: "https://thetacticalgeneralist.substack.com/p/my-life-without-a-helmet",
+    description: "A childhood built on shovel-swing stitches and trampoline scars, with zero protective gear — a reflection on growing up before helmets were mandatory.",
+    date: "2026-06-27",
+    slug: "my-life-without-a-helmet",
+    excerpt: `It was a freak accident. Another kid, digging a hole next to me, swung a shovel and caught me in the head. Five stitches. The doctor looked at the two inches of hair he'd shaved away on the top of my scalp and said, "Now you look like Kojak."\n\nI don't even remember what we were trying to dig that day. Some kind of hideout, I think, in a berm of fresh soil. Looking back, getting hit in the head probably saved me from suffocating, if the hole had collapsed on me instead. There's a kind of comedy in that math.\n\nThat's one of two scars I've got on the back of my head. The other one's from a trampoline. Split right open, bleeding, and I just kept going. I didn't even get stitches.`,
+    keywords: ["childhood injuries no helmets generation", "growing up without safety gear nostalgia", "80s childhood scars and stories", "kids today vs our childhood safety", "funny childhood injury stories", "generational parenting safety differences"],
+    metaDescription: "Two scars on the back of his head — one from a shovel, one from a trampoline — and a childhood spent without a single helmet growing up in the 70s.",
+  },
   {
     title: "The Wand on the Porch",
     pillar: "fieldnotes",

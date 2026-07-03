@@ -689,3 +689,16 @@ export const pillarStyles = {
     label: 'Field Notes',
   },
 };
+
+/**
+ * Pillar page descriptions — used by PillarPage.jsx for on-page copy and
+ * Helmet meta tags, and by scripts/prerender-meta.mjs for the static
+ * prerendered <head> tags. Single source of truth so both stay in sync.
+ */
+export const pillarDescriptions = {
+  finance: 'The money fundamentals that most people never get taught.',
+  career: 'Hard-won lessons from 30 years navigating corporate life.',
+  lifeskills: 'The practical stuff that makes everyday life easier and better.',
+  mindset: 'How you think about the world determines everything else.',
+  fieldnotes: "The stuff that doesn't fit anywhere else. Observations, oddities, and stories from a life fully lived.",
+};

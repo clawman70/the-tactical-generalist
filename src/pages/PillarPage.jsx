@@ -3,18 +3,7 @@ import { Helmet } from 'react-helmet-async';
 import { ArrowLeft, ArrowUpRight, BookOpen, PlayCircle } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import { latestContent, pillarStyles } from '../data/content';
-
-/**
- * Pillar descriptions for dedicated pillar pages.
- */
-const pillarDescriptions = {
-  finance: 'The money fundamentals that most people never get taught.',
-  career: 'Hard-won lessons from 30 years navigating corporate life.',
-  lifeskills: 'The practical stuff that makes everyday life easier and better.',
-  mindset: 'How you think about the world determines everything else.',
-  fieldnotes: "The stuff that doesn't fit anywhere else. Observations, oddities, and stories from a life fully lived.",
-};
+import { latestContent, pillarStyles, pillarDescriptions } from '../data/content';
 
 /**
  * PillarPage — Dedicated page showing ALL articles for a single pillar.

@@ -27,7 +27,7 @@ function Hero() {
       {/* Background Image using custom Banner */}
       <div className="absolute inset-0 z-0 bg-charcoal">
         <img
-          src="/banner.png"
+          src="/banner.jpg"
           alt="The Tactical Generalist Banner"
           className="w-full h-full object-cover opacity-60"
         />

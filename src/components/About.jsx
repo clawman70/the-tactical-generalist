@@ -33,7 +33,7 @@ function About() {
         <div className="about-elem flex-shrink-0">
           <div className="w-48 h-48 md:w-64 md:h-64 rounded-full border-2 border-stone/20 overflow-hidden bg-charcoal flex items-center justify-center shadow-lg">
             <img
-              src="/logo.png"
+              src="/logo.webp"
               alt="The Tactical Generalist"
               className="w-full h-full object-cover"
             />

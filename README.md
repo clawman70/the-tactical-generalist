@@ -81,8 +81,7 @@ src/
     About.jsx                 — Bio section with TG logo
     ContentFeed.jsx           — Latest content cards grid
     Philosophy.jsx            — Cinematic statement section
-    Protocol.jsx              — Pinned stacking card scroll
-    Connect.jsx               — YouTube + Substack CTAs
+    Connect.jsx               — Substack CTA
     Footer.jsx                — Links and copyright
   data/
     content.js                — Static content feed (edit this to update)
@@ -103,5 +102,4 @@ This is a static site. The `dist/` folder can be deployed to any static host:
 
 ## Known TODOs
 
-- **Image optimization**: `banner.png` (8.4 MB) and `logo.png` (5.6 MB) should be compressed before production deployment. Target: banner under 500 KB, logo under 200 KB. Consider WebP format.
 - **Platform URLs**: Twitter/X link is a placeholder — update when account is confirmed.

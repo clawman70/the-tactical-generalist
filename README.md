@@ -38,6 +38,28 @@ Each content item has:
 - `url` — Link to the full piece on YouTube or Substack
 - `description` — Short 1-2 sentence summary
 - `date` — Publication date (YYYY-MM-DD format)
+- `slug` — URL-friendly identifier for the on-site article page
+- `excerpt` — Opening 2-3 paragraphs of the article
+- `content` — Full verbatim article body (see "Recent 10 vs. full articles" below)
+- `keywords` / `metaDescription` — SEO fields for the article page
+
+### Recent 10 vs. full articles
+
+Article pages behave differently depending on how recent the article is:
+
+- **The 10 most recently dated articles, site-wide** — show only the `excerpt` plus a
+  "Read the full article on Substack" button. This is what drives new Substack
+  subscriptions.
+- **Everything older** — shows the full `content` field on-site with a soft "Subscribe
+  on Substack" nudge at the bottom instead of a gate. This is what gets indexed by
+  Google as real, complete pages on tacticalgeneralist.com.
+
+Which bucket an article falls into is **computed automatically** (see `getRecentSlugs()`
+in `content.js`) by sorting all articles by date — nothing needs to be flagged by hand.
+As new articles get added, older ones age out of the "recent 10" window on their own.
+The `tactical-generalist-sync` skill handles backfilling the `content` field the moment
+an article ages out, using `scripts/fetch-article-content.mjs` to pull the verbatim
+article body from Substack.
 
 ## Project Structure
 

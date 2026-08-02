@@ -3,15 +3,23 @@ import { Helmet } from 'react-helmet-async';
 import { ArrowLeft, ArrowUpRight } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import { latestContent, pillarStyles } from '../data/content';
+import { latestContent, pillarStyles, getRecentSlugs } from '../data/content';
+
+const SUBSTACK_SUBSCRIBE_URL = 'https://thetacticalgeneralist.substack.com/subscribe';
 
 /**
- * ArticlePage — Individual article excerpt page at /articles/:slug.
- * Displays the article opening, SEO metadata, and a CTA to read the full piece on Substack.
+ * ArticlePage — Individual article page at /articles/:slug.
+ *
+ * The 10 most recently dated articles (site-wide) show only their excerpt
+ * plus a hard CTA to read the rest on Substack — that's the hook that drives
+ * new subscribers. Everything older publishes in full on-site instead, with
+ * a soft "subscribe for what's next" nudge at the bottom rather than a gate.
  */
 function ArticlePage() {
   const { slug } = useParams();
   const article = latestContent.find((item) => item.slug === slug);
+  const recentSlugs = getRecentSlugs(latestContent, 10);
+  const isFullArticle = Boolean(article?.content) && !recentSlugs.has(slug);
 
   // 404 state
   if (!article) {
@@ -54,6 +62,7 @@ function ArticlePage() {
           "author": { "@type": "Person", "name": "Jeff Clawson" },
           "datePublished": article.date,
           "publisher": { "@type": "Organization", "name": "The Tactical Generalist", "url": "https://tacticalgeneralist.com" },
+          ...(isFullArticle ? { "articleBody": article.content } : {}),
         })}</script>
       </Helmet>
 
@@ -83,9 +92,9 @@ function ArticlePage() {
               By Jeff Clawson &middot; {formattedDate} &middot; {style.label}
             </p>
 
-            {/* Excerpt rendered as paragraphs */}
+            {/* Body: full text for graduated articles, excerpt for the newest 10 */}
             <div className="prose-excerpt mb-16">
-              {article.excerpt.split('\n\n').map((paragraph, i) => (
+              {(isFullArticle ? article.content : article.excerpt).split('\n\n').map((paragraph, i) => (
                 <p key={i} className="font-display text-charcoal/90 text-lg leading-relaxed mb-6">
                   {paragraph}
                 </p>
@@ -95,27 +104,51 @@ function ArticlePage() {
             {/* Divider */}
             <hr className="border-stone/20 mb-12" />
 
-            {/* CTA Block */}
-            <div className="bg-cream border border-bronze/30 rounded-2xl p-8 md:p-12 text-center">
-              <h2 className="font-heading font-bold text-2xl text-charcoal mb-4">Enjoying this?</h2>
-              <p className="font-sans text-slate mb-8 max-w-lg mx-auto">
-                The full piece is published on Substack. Subscribe free to read everything in the archive.
-              </p>
-              <a
-                href={article.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 bg-bronze text-charcoal px-8 py-3 rounded-sm font-heading font-semibold hover:bg-bronze-light transition-colors mb-4"
-              >
-                Read the full article
-                <ArrowUpRight className="w-4 h-4" />
-              </a>
-              <div>
-                <Link to="/articles" className="font-sans text-sm text-stone hover:text-bronze transition-colors">
-                  Browse more articles
-                </Link>
+            {isFullArticle ? (
+              /* Soft CTA — content isn't gated, just a subscribe nudge */
+              <div className="bg-cream border border-bronze/30 rounded-2xl p-8 md:p-12 text-center">
+                <h2 className="font-heading font-bold text-2xl text-charcoal mb-4">Enjoying this?</h2>
+                <p className="font-sans text-slate mb-8 max-w-lg mx-auto">
+                  Subscribe on Substack to get new articles first.
+                </p>
+                <a
+                  href={SUBSTACK_SUBSCRIBE_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 bg-bronze text-charcoal px-8 py-3 rounded-sm font-heading font-semibold hover:bg-bronze-light transition-colors mb-4"
+                >
+                  Subscribe on Substack
+                  <ArrowUpRight className="w-4 h-4" />
+                </a>
+                <div>
+                  <Link to="/articles" className="font-sans text-sm text-stone hover:text-bronze transition-colors">
+                    Browse more articles
+                  </Link>
+                </div>
               </div>
-            </div>
+            ) : (
+              /* Hard CTA — excerpt only, full piece lives on Substack */
+              <div className="bg-cream border border-bronze/30 rounded-2xl p-8 md:p-12 text-center">
+                <h2 className="font-heading font-bold text-2xl text-charcoal mb-4">Enjoying this?</h2>
+                <p className="font-sans text-slate mb-8 max-w-lg mx-auto">
+                  The full piece is published on Substack. Subscribe free to read everything in the archive.
+                </p>
+                <a
+                  href={article.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 bg-bronze text-charcoal px-8 py-3 rounded-sm font-heading font-semibold hover:bg-bronze-light transition-colors mb-4"
+                >
+                  Read the full article
+                  <ArrowUpRight className="w-4 h-4" />
+                </a>
+                <div>
+                  <Link to="/articles" className="font-sans text-sm text-stone hover:text-bronze transition-colors">
+                    Browse more articles
+                  </Link>
+                </div>
+              </div>
+            )}
           </div>
         </article>
 

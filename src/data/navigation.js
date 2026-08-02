@@ -8,5 +8,4 @@ export const navLinks = [
   { label: 'Articles', to: '/articles' },
   { label: 'Pillars', href: '/#pillars' },
   { label: 'Philosophy', href: '/#philosophy' },
-  { label: 'The Process', href: '/#protocol' },
 ];

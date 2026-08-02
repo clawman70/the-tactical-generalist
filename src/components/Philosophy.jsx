@@ -7,7 +7,8 @@ gsap.registerPlugin(ScrollTrigger);
 
 /**
  * Philosophy — Cinematic full-width section with scroll-triggered text reveals.
- * Represents the Philosophy & Mindset pillar's big statement.
+ * The site's guiding thought, not tied to any one pillar — Mindset still gets
+ * its own card in the Pillars section below.
  */
 function Philosophy() {
   const container = useRef(null);
@@ -32,14 +33,11 @@ function Philosophy() {
       {/* Subtle radial gradient for depth — replaced external Unsplash image */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(42,42,42,0.4)_0%,rgba(30,30,30,1)_70%)]" />
       <div className="max-w-6xl mx-auto relative z-10 w-full flex flex-col gap-12">
-        <div className="mb-4">
-          <span className="font-data text-sm text-[#4A6A4A] px-3 py-1 bg-success/20 border border-success/40 rounded-sm">PHILOSOPHY & MINDSET</span>
-        </div>
         <p className="reveal-line font-heading font-bold text-2xl md:text-4xl text-stone uppercase tracking-wide">
-          Most advice focuses on theory and optimization.
+          Most people write to teach something.
         </p>
         <p className="reveal-line font-heading text-5xl md:text-7xl lg:text-8xl text-warm-white max-w-4xl tracking-tight leading-[1.1]">
-          I focus on building <span className="font-drama italic text-gold font-normal tracking-normal text-6xl md:text-8xl lg:text-[9rem]">resilience</span> and executing the basics flawlessly.
+          I'm just writing down what I <span className="font-drama italic text-gold font-normal tracking-normal text-6xl md:text-8xl lg:text-[9rem]">noticed</span> — you decide what it means.
         </p>
       </div>
     </section>

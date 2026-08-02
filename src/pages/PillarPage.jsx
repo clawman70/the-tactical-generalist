@@ -1,9 +1,10 @@
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
-import { ArrowLeft, ArrowUpRight, BookOpen, PlayCircle } from 'lucide-react';
+import { ArrowLeft } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import { latestContent, pillarStyles, pillarDescriptions } from '../data/content';
+import ArticleCard from '../components/ArticleCard';
+import { latestContent, pillarStyles, pillarDescriptions, getRecentSlugs } from '../data/content';
 
 /**
  * PillarPage — Dedicated page showing ALL articles for a single pillar.
@@ -13,6 +14,7 @@ function PillarPage({ pillar }) {
   const style = pillarStyles[pillar];
   const description = pillarDescriptions[pillar];
   const articles = latestContent.filter((item) => item.pillar === pillar);
+  const teaserSlugs = getRecentSlugs(latestContent, 10);
 
   return (
     <>
@@ -43,43 +45,9 @@ function PillarPage({ pillar }) {
               <p className="font-sans text-slate italic">{style.label} articles coming soon.</p>
             ) : (
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {articles.map((item, i) => {
-                  const FormatIcon = item.format === 'video' ? PlayCircle : BookOpen;
-
-                  return (
-                    <Link
-                      key={i}
-                      to={`/articles/${item.slug}`}
-                      className="group bg-warm-white rounded-2xl p-6 border border-stone/20 hover:border-bronze transition-colors flex flex-col gap-4 shadow-sm"
-                    >
-                      {/* Pillar tag + format icon */}
-                      <div className="flex items-center justify-between">
-                        <span className={`font-data text-xs px-2 py-1 rounded-sm ${style.bg} ${style.border} ${style.text} border`}>
-                          {style.label}
-                        </span>
-                        <FormatIcon className="w-5 h-5 text-stone" />
-                      </div>
-
-                      {/* Title */}
-                      <h3 className="font-heading font-bold text-lg text-charcoal leading-snug group-hover:text-bronze-dark transition-colors">
-                        {item.title}
-                      </h3>
-
-                      {/* Description */}
-                      <p className="font-sans text-sm text-slate leading-relaxed flex-1">
-                        {item.description}
-                      </p>
-
-                      {/* Footer: date + arrow */}
-                      <div className="flex items-center justify-between pt-2 border-t border-stone/10">
-                        <span className="font-data text-xs text-stone">
-                          {new Date(item.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
-                        </span>
-                        <ArrowUpRight className="w-4 h-4 text-stone group-hover:text-bronze transition-colors" />
-                      </div>
-                    </Link>
-                  );
-                })}
+                {articles.map((item) => (
+                  <ArticleCard key={item.slug} item={item} isTeaser={teaserSlugs.has(item.slug)} />
+                ))}
               </div>
             )}
           </div>

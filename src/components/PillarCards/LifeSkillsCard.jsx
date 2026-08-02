@@ -11,7 +11,7 @@ gsap.registerPlugin(ScrollTrigger);
  * Typewriter effect animation in the left panel.
  */
 function LifeSkillsCard() {
-  const text = "Life requires maintenance. Learn to cook without recipes, fix a leaky faucet, and travel with purpose.";
+  const text = "Life requires maintenance. Cooking, fixing things, traveling — the stuff nobody teaches you until you need it.";
   const [displayed, setDisplayed] = useState("");
   const container = useRef(null);
   const [started, setStarted] = useState(false);
@@ -63,7 +63,7 @@ function LifeSkillsCard() {
         </span>
         <h3 className="font-heading font-bold text-4xl mb-4 text-charcoal">Life Skills</h3>
         <p className="font-sans text-xl text-slate leading-relaxed max-w-lg mb-8">
-          The practical stuff that makes everyday life easier and better. From cooking a perfect steak to skills worth passing down.
+          The everyday stuff — cooking, fixing things, traveling — and what I've picked up doing it.
         </p>
         <Link to="/articles/lifeskills" className="font-data text-sm text-bronze hover:text-bronze-dark transition-colors">
           Browse Life Skills articles &rarr;

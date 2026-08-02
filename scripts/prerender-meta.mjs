@@ -99,7 +99,7 @@ for (const pillar of Object.keys(pillarStyles)) {
   html = setMetaContent(
     html,
     'name="description"',
-    'Browse all articles from The Tactical Generalist — practical wisdom on personal finance, career, life skills, mindset, and field observations.'
+    'Browse all articles from The Tactical Generalist — life lessons and observations on finance, career, life skills, mindset, and everything in between.'
   );
   writeRoute('articles', html);
   count++;

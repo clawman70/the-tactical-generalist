@@ -4,7 +4,6 @@ import ContentFeed from '../components/ContentFeed';
 import Connect from '../components/Connect';
 import Pillars from '../components/Pillars';
 import Philosophy from '../components/Philosophy';
-import Protocol from '../components/Protocol';
 import About from '../components/About';
 import Footer from '../components/Footer';
 
@@ -21,7 +20,6 @@ function HomePage() {
       <Connect />
       <Pillars />
       <Philosophy />
-      <Protocol />
       <About />
       <Footer />
     </div>

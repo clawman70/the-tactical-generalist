@@ -1,20 +1,21 @@
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
-import { ArrowUpRight, BookOpen, PlayCircle } from 'lucide-react';
+import { ArrowUpRight } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import { latestContent, pillarStyles } from '../data/content';
+import ArticleCard from '../components/ArticleCard';
+import { latestContent, getRecentSlugs } from '../data/content';
 
 /**
  * Pillar ordering for the catalog page.
  * Each entry maps a pillar key to its display heading.
  */
 const pillarOrder = [
+  { key: 'fieldnotes', heading: 'Field Notes' },
   { key: 'finance', heading: 'Personal Finance' },
   { key: 'career', heading: 'Business & Career' },
   { key: 'lifeskills', heading: 'Life Skills' },
   { key: 'mindset', heading: 'Philosophy & Mindset' },
-  { key: 'fieldnotes', heading: 'Field Notes' },
 ];
 
 /**
@@ -22,11 +23,13 @@ const pillarOrder = [
  * Cards match the homepage ContentFeed visual style.
  */
 function ArticlesPage() {
+  const teaserSlugs = getRecentSlugs(latestContent, 10);
+
   return (
     <>
       <Helmet>
         <title>All Articles | The Tactical Generalist</title>
-        <meta name="description" content="Browse all articles from The Tactical Generalist — practical wisdom on personal finance, career, life skills, mindset, and field observations." />
+        <meta name="description" content="Browse all articles from The Tactical Generalist — life lessons and observations on finance, career, life skills, mindset, and everything in between." />
       </Helmet>
 
       <div className="bg-warm-white min-h-screen">
@@ -36,7 +39,7 @@ function ArticlesPage() {
         <section className="pt-40 pb-16 px-8">
           <div className="max-w-7xl mx-auto">
             <h1 className="font-heading font-bold text-5xl md:text-7xl text-charcoal tracking-tighter mb-6">All Articles</h1>
-            <p className="font-sans text-xl text-slate max-w-2xl">Browse the full archive — practical wisdom across all five pillars.</p>
+            <p className="font-sans text-xl text-slate max-w-2xl">Browse the full archive — life, through my eyes, across all five pillars.</p>
           </div>
         </section>
 
@@ -45,7 +48,6 @@ function ArticlesPage() {
           const allArticles = latestContent.filter((item) => item.pillar === key);
           const visibleArticles = allArticles.slice(0, 3);
           const hasMore = allArticles.length > 3;
-          const style = pillarStyles[key];
 
           return (
             <section key={key} className="py-12 px-8">
@@ -57,43 +59,9 @@ function ArticlesPage() {
                 ) : (
                   <>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                      {visibleArticles.map((item, i) => {
-                        const FormatIcon = item.format === 'video' ? PlayCircle : BookOpen;
-
-                        return (
-                          <Link
-                            key={i}
-                            to={`/articles/${item.slug}`}
-                            className="group bg-warm-white rounded-2xl p-6 border border-stone/20 hover:border-bronze transition-colors flex flex-col gap-4 shadow-sm"
-                          >
-                            {/* Pillar tag + format icon */}
-                            <div className="flex items-center justify-between">
-                              <span className={`font-data text-xs px-2 py-1 rounded-sm ${style.bg} ${style.border} ${style.text} border`}>
-                                {style.label}
-                              </span>
-                              <FormatIcon className="w-5 h-5 text-stone" />
-                            </div>
-
-                            {/* Title */}
-                            <h3 className="font-heading font-bold text-lg text-charcoal leading-snug group-hover:text-bronze-dark transition-colors">
-                              {item.title}
-                            </h3>
-
-                            {/* Description */}
-                            <p className="font-sans text-sm text-slate leading-relaxed flex-1">
-                              {item.description}
-                            </p>
-
-                            {/* Footer: date + arrow */}
-                            <div className="flex items-center justify-between pt-2 border-t border-stone/10">
-                              <span className="font-data text-xs text-stone">
-                                {new Date(item.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
-                              </span>
-                              <ArrowUpRight className="w-4 h-4 text-stone group-hover:text-bronze transition-colors" />
-                            </div>
-                          </Link>
-                        );
-                      })}
+                      {visibleArticles.map((item) => (
+                        <ArticleCard key={item.slug} item={item} isTeaser={teaserSlugs.has(item.slug)} />
+                      ))}
                     </div>
 
                     {hasMore && (

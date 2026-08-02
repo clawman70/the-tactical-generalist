@@ -51,10 +51,10 @@ function About() {
               I've spent 30+ years in technology, leadership, and life — making mistakes, figuring things out, and wishing someone had told me sooner.
             </p>
             <p className="about-elem font-sans text-lg leading-relaxed">
-              The Tactical Generalist is my legacy project. It's not monetized. It's not a brand play. It's the advice I want my kids to have when I'm not around to give it.
+              The Tactical Generalist is my legacy project. It's not monetized. It's not a brand play. It's what I've noticed and learned along the way — the kind of thing I want my kids to still have, even when I'm not around to tell it myself.
             </p>
             <p className="about-elem font-sans text-lg leading-relaxed text-bronze-dark">
-              If it helps you too, even better.
+              If it resonates with you too, even better.
             </p>
           </div>
         </div>

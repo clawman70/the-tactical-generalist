@@ -9,7 +9,7 @@ function Footer() {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-16 mb-24">
         <div className="max-w-sm">
           <h2 className="font-heading font-bold text-3xl mb-4 text-gold">The Tactical Generalist</h2>
-          <p className="font-sans text-stone mb-8">Timeless advice from someone who's tried almost everything. A legacy project preserving 30+ years of lessons learned.</p>
+          <p className="font-sans text-stone mb-8">Life, through my eyes — the things I've noticed, learned, and lived. Finance, career, life skills, and mindset show up along the way.</p>
         </div>
 
         <div className="flex gap-16 font-sans">
@@ -22,7 +22,6 @@ function Footer() {
             <Link to="/articles" className="hover:text-bronze transition-colors">Articles</Link>
             <a href="/#pillars" className="hover:text-bronze transition-colors">The 5 Pillars</a>
             <a href="/#philosophy" className="hover:text-bronze transition-colors">Philosophy</a>
-            <a href="/#protocol" className="hover:text-bronze transition-colors">The Process</a>
           </div>
         </div>
       </div>

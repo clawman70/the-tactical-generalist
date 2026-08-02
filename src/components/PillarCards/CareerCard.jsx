@@ -75,7 +75,7 @@ function CareerCard() {
         </span>
         <h3 className="font-heading font-bold text-4xl mb-4 text-charcoal">Business &amp; Career</h3>
         <p className="font-sans text-xl text-slate leading-relaxed max-w-lg mb-8">
-          Hard-won lessons from 30 years navigating corporate life — on leadership, networking, and how to actually get ahead.
+          Thirty years of corporate life, and what it actually taught me about leadership and getting ahead.
         </p>
         <Link to="/articles/career" className="font-data text-sm text-bronze hover:text-bronze-dark transition-colors">
           Browse Business &amp; Career articles &rarr;

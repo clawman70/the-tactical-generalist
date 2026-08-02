@@ -6,7 +6,7 @@ import FieldNotesCard from './PillarCards/FieldNotesCard';
 
 /**
  * Pillars — Section wrapper displaying all 5 content pillar cards in a
- * full-width stacked layout (matching The Process section).
+ * full-width stacked layout.
  */
 function Pillars() {
   return (
@@ -14,15 +14,15 @@ function Pillars() {
       <div className="max-w-5xl mx-auto">
         <div className="mb-20 text-center md:text-left">
           <h2 className="font-heading font-bold text-5xl md:text-7xl text-charcoal tracking-tighter mb-6">The Five Pillars</h2>
-          <p className="font-sans text-xl text-slate max-w-2xl">The five areas I think matter most for building a good life. Each one drawn from real experience — things I've learned, messed up, and figured out over 30+ years.</p>
+          <p className="font-sans text-xl text-slate max-w-2xl">Field Notes is the throughline. The other four are categories that show up along the way — all of it drawn from 30+ years of real experience, mistakes included.</p>
         </div>
 
         <div className="flex flex-col gap-12">
+          <FieldNotesCard />
           <FinanceCard />
           <CareerCard />
           <LifeSkillsCard />
           <MindsetCard />
-          <FieldNotesCard />
         </div>
       </div>
     </section>

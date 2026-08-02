@@ -83,7 +83,7 @@ function FieldNotesCard() {
         </span>
         <h3 className="font-heading font-bold text-4xl mb-4 text-charcoal">Field Notes</h3>
         <p className="font-sans text-xl text-slate leading-relaxed max-w-lg mb-8">
-          The stuff that doesn't fit anywhere else. Observations, oddities, and stories from a life fully lived.
+          Life, through my eyes. The observations, stories, and things I've noticed along the way — everything else here branches out from this.
         </p>
         <Link to="/articles/fieldnotes" className="font-data text-sm text-bronze hover:text-bronze-dark transition-colors">
           Browse Field Notes articles &rarr;

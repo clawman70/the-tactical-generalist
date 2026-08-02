@@ -57,7 +57,7 @@ function MindsetCard() {
         </span>
         <h3 className="font-heading font-bold text-4xl mb-4 text-charcoal">Philosophy &amp; Mindset</h3>
         <p className="font-sans text-xl text-slate leading-relaxed max-w-lg mb-8">
-          How you think about the world determines everything else. Perspective, gratitude, resilience, and the long game.
+          How I've come to think about the world, for whatever that's worth. Perspective, gratitude, and the long game.
         </p>
         <Link to="/articles/mindset" className="font-data text-sm text-bronze hover:text-bronze-dark transition-colors">
           Browse Philosophy &amp; Mindset articles &rarr;

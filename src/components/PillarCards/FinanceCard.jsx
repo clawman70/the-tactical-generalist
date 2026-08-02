@@ -71,7 +71,7 @@ function FinanceCard() {
         </span>
         <h3 className="font-heading font-bold text-4xl mb-4 text-charcoal">Personal Finance</h3>
         <p className="font-sans text-xl text-slate leading-relaxed max-w-lg mb-8">
-          The money fundamentals that most people never get taught. How to build wealth on any income, get out of debt, and make your money work for you.
+          Money, mostly learned the hard way — saving, debt, and the accounts that actually matter.
         </p>
         <Link to="/articles/finance" className="font-data text-sm text-bronze hover:text-bronze-dark transition-colors">
           Browse Personal Finance articles &rarr;

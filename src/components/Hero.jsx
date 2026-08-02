@@ -38,17 +38,17 @@ function Hero() {
         <div className="flex flex-col gap-2">
           <p className="hero-elem font-data text-gold text-sm md:text-base uppercase tracking-widest mb-4">By Jeff Clawson</p>
           <h1 className="hero-elem font-heading font-bold text-5xl md:text-7xl lg:text-8xl text-warm-white leading-[0.9] tracking-tighter">
-            Pass down the
+            Life,
           </h1>
           <h2 className="hero-elem font-drama italic text-6xl md:text-8xl lg:text-[10rem] text-cream leading-[0.8] mb-8">
-            Lessons.
+            Through My Eyes.
           </h2>
           <p className="hero-elem font-sans text-xl md:text-2xl text-stone max-w-2xl mt-4">
-            Timeless advice from someone who's tried almost everything. A legacy project spanning finance, career, and life skills for the next generation.
+            The things I've noticed, learned, and lived — mostly the hard way. Finance, career, life skills, and mindset show up along the way.
           </p>
           <div className="hero-elem mt-12 flex flex-wrap gap-4">
             <a href="#connect" className="magnetic-btn bg-bronze text-charcoal rounded-sm px-8 py-4 font-heading text-lg font-semibold flex items-center gap-3">
-              Start Learning <ArrowUpRight className="w-5 h-5" />
+              Start Reading <ArrowUpRight className="w-5 h-5" />
             </a>
           </div>
         </div>

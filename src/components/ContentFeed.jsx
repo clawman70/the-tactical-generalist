@@ -3,8 +3,9 @@ import { Link } from 'react-router-dom';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useGSAP } from '@gsap/react';
-import { ArrowUpRight, PlayCircle, BookOpen } from 'lucide-react';
-import { latestContent, pillarStyles } from '../data/content';
+import { ArrowUpRight } from 'lucide-react';
+import { latestContent, getRecentSlugs } from '../data/content';
+import ArticleCard from './ArticleCard';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -19,6 +20,7 @@ function ContentFeed() {
   const recentArticles = [...latestContent]
     .sort((a, b) => new Date(b.date) - new Date(a.date))
     .slice(0, 4);
+  const teaserSlugs = getRecentSlugs(latestContent, 10);
 
   useGSAP(() => {
     gsap.from('.feed-card', {
@@ -43,44 +45,9 @@ function ContentFeed() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {recentArticles.map((item, i) => {
-            const style = pillarStyles[item.pillar];
-            const FormatIcon = item.format === 'video' ? PlayCircle : BookOpen;
-
-            return (
-              <Link
-                key={i}
-                to={`/articles/${item.slug}`}
-                className="feed-card group bg-warm-white rounded-2xl p-6 border border-stone/20 hover:border-bronze transition-colors flex flex-col gap-4 shadow-sm"
-              >
-                {/* Pillar tag + format icon */}
-                <div className="flex items-center justify-between">
-                  <span className={`font-data text-xs px-2 py-1 rounded-sm ${style.bg} ${style.border} ${style.text} border`}>
-                    {style.label}
-                  </span>
-                  <FormatIcon className="w-5 h-5 text-stone" />
-                </div>
-
-                {/* Title */}
-                <h3 className="font-heading font-bold text-lg text-charcoal leading-snug group-hover:text-bronze-dark transition-colors">
-                  {item.title}
-                </h3>
-
-                {/* Description */}
-                <p className="font-sans text-sm text-slate leading-relaxed flex-1">
-                  {item.description}
-                </p>
-
-                {/* Footer: date + arrow */}
-                <div className="flex items-center justify-between pt-2 border-t border-stone/10">
-                  <span className="font-data text-xs text-stone">
-                    {new Date(item.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
-                  </span>
-                  <ArrowUpRight className="w-4 h-4 text-stone group-hover:text-bronze transition-colors" />
-                </div>
-              </Link>
-            );
-          })}
+          {recentArticles.map((item) => (
+            <ArticleCard key={item.slug} item={item} isTeaser={teaserSlugs.has(item.slug)} extraClassName="feed-card" />
+          ))}
         </div>
 
         {/* View All link */}

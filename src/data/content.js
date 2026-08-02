@@ -911,9 +911,9 @@ export const pillarStyles = {
  * prerendered <head> tags. Single source of truth so both stay in sync.
  */
 export const pillarDescriptions = {
-  finance: 'The money fundamentals that most people never get taught.',
-  career: 'Hard-won lessons from 30 years navigating corporate life.',
-  lifeskills: 'The practical stuff that makes everyday life easier and better.',
-  mindset: 'How you think about the world determines everything else.',
-  fieldnotes: "The stuff that doesn't fit anywhere else. Observations, oddities, and stories from a life fully lived.",
+  finance: 'Money, mostly learned the hard way — saving, debt, and the accounts that actually matter.',
+  career: 'Thirty years of corporate life, and what it actually taught me about leadership and getting ahead.',
+  lifeskills: "The everyday stuff — cooking, fixing things, traveling — and what I've picked up doing it.",
+  mindset: "How I've come to think about the world, for whatever that's worth.",
+  fieldnotes: "Life, through my eyes — the observations and stories everything else on this site branches out from.",
 };

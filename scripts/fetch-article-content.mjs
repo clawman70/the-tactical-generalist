@@ -10,6 +10,7 @@
 // converts each recognized block to plain text, skipping images, embeds, and
 // Substack UI chrome (comment/share buttons, subscribe widgets).
 import * as cheerio from 'cheerio';
+import { pathToFileURL } from 'node:url';
 
 const SKIP_CLASS_MARKERS = ['button-wrapper', 'subscription-widget', 'poll-embed', 'share-dialog'];
 
@@ -67,7 +68,11 @@ export async function fetchArticleContent(url) {
 }
 
 // CLI usage: node scripts/fetch-article-content.mjs <substack-url>
-if (import.meta.url === `file://${process.argv[1]}`) {
+// (compared via pathToFileURL rather than a raw `file://` template — on Windows
+// process.argv[1] uses backslashes and isn't URL-encoded, so a plain string
+// comparison against import.meta.url never matches and this guard silently
+// never runs.)
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   const url = process.argv[2];
   if (!url) {
     console.error('Usage: node scripts/fetch-article-content.mjs <substack-url>');

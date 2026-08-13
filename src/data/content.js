@@ -137,6 +137,18 @@ It was January, still Christmas break, which is the only reason I was up on thos
 
   // ─── BUSINESS & CAREER ────────────────────────────────────────────
   {
+    title: "The Greased Pole",
+    pillar: "career",
+    format: "written",
+    url: "https://thetacticalgeneralist.substack.com/p/the-greased-pole",
+    description: "A childhood contest with a rigged shortcut, and the sales comp decision decades later that traced back to the same lesson.",
+    date: "2026-08-04",
+    slug: "the-greased-pole",
+    excerpt: `I was ten or eleven years old, stripped down to a pair of shorts, bare feet, bare-chested, standing in a field at a church Fathers and Sons outing. In front of me was a fence post, fifteen or twenty feet long, buried four or five feet in the ground, wood, and greased from top to bottom with something so acrid it smelled like a garage from thirty feet away. At the top, a twenty-dollar bill. First one to the top got to keep it. The contest was open to any kid in the congregation under eighteen, which meant a ten-year-old and a seventeen-year-old with a driver’s license were competing for the same twenty dollars.\n\nSomebody had decided this was a reasonable activity for a congregation full of kids that age. This was the seventies. If you tried it today, someone would call CPS before the first kid hit the ground.\n\nWe took turns. One at a time, grab the pole, slide right back off. A friend of mine had coveralls on, thinking the fabric might buy him some grip. It didn’t. This went on for a while, kid after kid getting a little further up and sliding right back down, until one of the older boys, sixteen or seventeen and old enough to drive, went and got his truck. He backed it up to the pole and started jumping off the tailgate. A few of the bigger boys couldn’t jump high enough on their own, so they climbed on top of each other, stacked two and three high, until somebody’s hand finally closed around that twenty.`,
+    keywords: ["ethical sales leadership story", "sales compensation fairness", "gaming the system business", "leadership integrity story", "childhood lesson business parable", "Red Hat sales career story"],
+    metaDescription: "A church youth contest with a rigged shortcut, and the sales compensation decision years later that traced back to the same lesson about fairness.",
+  },
+  {
     title: "When My Team Became My Family",
     pillar: "career",
     format: "written",
@@ -362,6 +374,18 @@ It was January, still Christmas break, which is the only reason I was up on thos
 
   // ─── PHILOSOPHY & MINDSET ─────────────────────────────────────────
   {
+    title: "Twenty Minutes That Felt Like Four Hours",
+    pillar: "mindset",
+    format: "written",
+    url: "https://thetacticalgeneralist.substack.com/p/twenty-minutes-that-felt-like-four",
+    description: "Why an hour in a dentist's chair and an hour lost in your work never feel the same, and what that says about how we actually experience time.",
+    date: "2026-08-06",
+    slug: "twenty-minutes-that-felt-like-four",
+    excerpt: `Twenty minutes in a dentist’s chair can last four hours. Three days in the tropics can vanish before you’ve unpacked. Eighteen years can happen in the time it takes to blink. And somewhere in my head, right now, I am four years old, and that memory is sharper than what I ate for breakfast this morning.\n\nNone of that makes sense. I’m aware of that. Stay with me anyway.\n\nLast Tuesday I left the house at 5:45 in the morning, pointed the car at Austin, and settled in for the three-and-a-half-hour drive down. In some parts of the world, three and a half hours is a serious undertaking. In Texas, it’s a Sunday. I wasn’t dreading it, I was just going to be in the car for a while, so I picked an audiobook called Random Curiosities and let my brain go on autopilot.`,
+    keywords: ["why time feels different", "perception of time essay", "time perception psychology", "flow state versus boredom", "time flies when busy", "philosophy of time personal essay"],
+    metaDescription: "A personal essay on why time moves at different speeds depending on what you're doing with it, from dentist chairs to the first year of a newborn.",
+  },
+  {
     title: "Take the Pill or Go to Canada",
     pillar: "mindset",
     format: "written",
@@ -390,6 +414,61 @@ My mother-in-law moved in with us for several months last year while she fought 
 I’d been climbing for a few years and had worked my way up through the grades the way most people do: the easy stuff came fast, the middle grades took work, and somewhere around 5.11 I felt like I’d actually become a climber. Then I set my sights on 5.13, and everything changed. Not the route difficulty, the math.
 
 To get from 5.10 to 5.11, I showed up and climbed. To get from 5.11 to 5.12, I trained with more intention. To chase 5.13, I was hangboarding twice a week to build ligament strength in my fingers, obsessing over technique, and spending more time on the wall than I probably should have. The gains were real, but they were getting expensive.`,
+    content: `My fingers told me first.
+
+I’d been climbing for a few years and had worked my way up through the grades the way most people do: the easy stuff came fast, the middle grades took work, and somewhere around 5.11 I felt like I’d actually become a climber. Then I set my sights on 5.13, and everything changed. Not the route difficulty, the math.
+
+To get from 5.10 to 5.11, I showed up and climbed. To get from 5.11 to 5.12, I trained with more intention. To chase 5.13, I was hangboarding twice a week to build ligament strength in my fingers, obsessing over technique, and spending more time on the wall than I probably should have. The gains were real, but they were getting expensive.
+
+My body started sending invoices I didn’t want to open. Tendonitis in my fingers. Tendonitis in my toes from years of tight climbing shoes. At some point, somewhere in my early fifties, I had to do some honest math: if I kept chasing the grade, I was probably going to have to hang up my harness before I turned 60. I backed off.
+
+Here’s the thing about that decision. I didn’t quit climbing. I still get on the wall. My fingers still work. I just stopped treating the grade as the point.
+
+I backed off to keep climbing. That distinction took me longer to arrive at than it should have.
+
+The climbing wall was just the place I finally heard the lesson clearly. I’d been ignoring variations of it for years.
+
+I’ve been working out consistently for about twelve years now. For most of that time, I’ve maintained somewhere around 15%-16% body fat without a lot of drama: show up, do some cardio, keep my steps between 7,000 and 10,000, manage portions reasonably well. I can still have a bowl of ice cream a couple nights a week. I don’t walk around miserable. The body I have at 15% isn’t a bad one.
+
+But I kept looking in the mirror and seeing the fat around the middle, the love handles, and thinking: four or five percent. That’s all. Get down to 10 or 12, and you’d actually look like you work out.
+
+So I’d cut. And I’d get down to 12%. And I’d be hungry all the time. Tired. My mind wasn’t as sharp. I’d get irritable in a way that spread into everything else. Every meal started with a calculator. Every social situation was a negotiation with myself. I was winning on the scale and losing everywhere else.
+
+Then I’d bounce back to 15%. And six months later I’d decide to cut again. Same result. I did this cycle more times than I’d like to admit before I sat with the obvious question: what exactly am I chasing, and who’s it for?
+
+The honest answer was nobody. Nobody in my life has ever looked at me and thought “he’d be so much better at 12%.” I’m the only one running that scoreboard. I look in the mirror and see what isn’t there. Everyone else just sees a healthy person.
+
+That’s not discipline. That’s just vanity wearing discipline’s clothes.
+
+The same math shows up in pull-ups. I’ve been chasing 30 for years. On my 55th birthday, I did 28. Twenty-eight pull-ups, which, for the record, is a lot of pull-ups. I was two away from the number I’d been carrying around for years.
+
+And I sat with it, and I realized what it would take to close that gap. Not just more training but a deliberate shift in focus, pull-ups becoming the priority, everything else stepping back to make room. Two reps. That’s what I’d be reorganizing my training around.
+
+I still have 30 on the goal sheet. But I think I’m going to be fine with 28. Some ceilings exist because your body is telling you something. Not every number is meant to be hit, and the cost of the last two reps is the rest of your program.
+
+The career had its own version. I spent years chasing the next rung, the bigger title, the broader responsibility. I’ve managed large teams and carried significant revenue targets, and I was good at it. But I also know what it cost: the travel, the time away from home, the mental weight of carrying other people’s performance. There’s a kind of pressure that comes with the org chart that doesn’t leave when you close the laptop.
+
+I want to be careful here. There are people who are genuinely built for that work. They love the mentoring, the building, the big-picture view of a company. They should be in those roles. I have great respect for them, and I wouldn’t begrudge them a thing. I would be lying if I didn’t say I still get a charge from it.
+
+But some of us have been there, done that, and figured out it doesn’t bring us joy the way it used to. Not because we failed at it, but because we finally got honest about the trade. I make less money now than I did at the peak. I also have fewer headaches, more time to focus on what I actually want to do, and a life that fits better. That’s not a consolation prize. That’s the right answer for the equation I’m actually running.
+
+A friend of mine retired at 56. He’d done well, had more than enough, and made a decision that a lot of people in his position wouldn’t make: he stopped. Not because he ran out of ambition, but because he looked at the three things that matter: money, health, and time. He realized two of them were on permanent decline.
+
+Money compounds. Health and time go the other way. Past a certain point, every year you keep grinding is a trade of the things you can’t get back for more of the thing you already have enough of.
+
+He shakes his head at colleagues who have long since crossed that line and keep going anyway. I understand the impulse. There’s an inner drive in some people that doesn’t have an off switch, and I have real respect for it. But there’s also a version of that drive that’s just a dashboard nobody else can see, running in the background, demanding one more percent.
+
+One more percent of what, exactly?
+
+None of this is an argument against ambition. The pushing got me somewhere real. Twelve years of consistent training, a body that works, a career that paid off in ways I’m still drawing on. You have to push past comfortable to find out where you actually are. The cost was real, and so was the return.
+
+The skill, I think, is learning to read the curve. There’s a point in every endeavor where the effort required for the next increment stops being proportional to the gain. You can feel it before you can name it: the hunger that doesn’t go away, the tiredness that spreads, the sense that you’re working harder to stay in the same place. Your body knows. Your calendar knows. Usually the people around you know before you do.
+
+The hard part is that you can only see the flat part of the curve clearly after you’ve been on it for a while. I’ve gone past the line enough times now to recognize it earlier. That’s the scar tissue talking.
+
+I still climb. Not at 5.13. The shoes are a little less tight, the hangboard collects a little more dust, and my fingers feel fine. The wall is still there. That’s the whole point.
+
+Eventually, enough is enough. Not because you gave up, but because you finally figured out what you were actually after.`,
     keywords: ["diminishing returns life lessons", "when to stop chasing more", "knowing your limits fitness and career", "cost benefit analysis personal growth", "climbing injuries and burnout", "recognizing enough is enough mindset"],
     metaDescription: "Diminishing returns show up in climbing, fitness, career, and money. Here's what it takes to recognize when the next gain isn't worth the cost.",
   },
@@ -474,6 +553,30 @@ To get from 5.10 to 5.11, I showed up and climbed. To get from 5.11 to 5.12, I t
 
   // ─── FIELD NOTES ──────────────────────────────────────────────────
   {
+    title: "The Gap in the Clouds",
+    pillar: "fieldnotes",
+    format: "written",
+    url: "https://thetacticalgeneralist.substack.com/p/the-gap-in-the-clouds",
+    description: "Two total eclipses, seven years apart, and the bets our family made chasing clear sky both times.",
+    date: "2026-08-13",
+    slug: "the-gap-in-the-clouds",
+    excerpt: `Our son paid about two and a half times what a normal ticket out to Texas should have cost him. Everybody was flying into DFW that week for the same reason he was, and he knew it going in. He also knew the forecast was ugly and getting uglier, and there was a real chance he’d fly in, stand in our backyard with the rest of us, and watch nothing but gray sky. He bought the ticket anyway.\n\nHe’d never seen a total eclipse. He’d heard about the one we experienced in Kansas City in 2017, the year he was living in California and couldn’t make the trip, and he’d heard about it the way you hear about something secondhand, which is to say not really at all. You can’t describe totality to someone who hasn’t stood in it. I’ve tried. It doesn’t take.\n\nThat first one almost didn’t happen either.`,
+    keywords: ["total eclipse family story", "chasing the eclipse essay", "family travel personal essay", "betting on uncertain outcomes", "eclipse 2024 versus 2017", "personal essay about risk"],
+    metaDescription: "A family's two total eclipse chases, seven years apart, and what it taught them about betting on an uncertain sky.",
+  },
+  {
+    title: "The Coconut Syrup We Haven't Opened Yet",
+    pillar: "fieldnotes",
+    format: "written",
+    url: "https://thetacticalgeneralist.substack.com/p/the-coconut-syrup-we-havent-opened",
+    description: "A family reunion trip to Maui after two years apart, and the small things nobody wants to be the one to finish.",
+    date: "2026-08-11",
+    slug: "the-coconut-syrup-we-havent-opened",
+    excerpt: `We came home with two bags of taffy (this is a bit disingenuous because I inhaled the first bag before the flight), three boxes of chocolate-covered macadamia nuts, a bag of pancake mix, and a bottle of coconut syrup, all from the same ABC Store, on two separate trips, because apparently once wasn’t enough. That’s the kind of vacation this was. You don’t need much of a plan when everyone just wants to be in the same room.\n\nGetting everyone in that room took longer to arrange than the vacation itself. Both girls graduated this spring, one from college, one from high school, and somewhere in the celebrating we decided the seven of us needed to get together, really together, for the first time in over two years. My son threw out Hawaii. Everyone but my youngest was in (honestly, she would have vetoed anything but Canada). We spent weeks chasing the easy option: the Caribbean, no time change, should be simple. Except the houses were wrong, or the flights were wrong, or the island was wrong. We looked at the Big Island. We looked at Kauai. We landed on Maui because it was actually the easiest option once you looked at flights and logistics, even though it wasn’t the cheapest.\n\nWe rented a house up the road from Ka’anapali. Six days, five nights, and for the first time in two years, everybody was under one roof long enough to actually talk to each other.`,
+    keywords: ["family reunion vacation story", "Maui family trip essay", "empty nest family gathering", "adult children family vacation", "snorkeling family memories", "slice of life travel essay"],
+    metaDescription: "A family of seven reunites in Maui after two years apart — a vacation essay about togetherness, snorkeling, and not wanting the trip to end.",
+  },
+  {
     title: "Wherever 70 Degrees Is Hiding",
     pillar: "fieldnotes",
     format: "written",
@@ -534,6 +637,41 @@ I was not a bad student in the conventional sense. I never struggled to understa
 We’re going this summer, the whole family, and somewhere between rinsing and conditioning I realized that even on a beach five time zones from my inbox, I’m still the dad. Someone has to know where the rental car is parked. Someone has to make sure everyone eats something besides shave ice. That someone is me, and it’ll be me on the next trip too, and the one after that. There’s this idea that eventually all your time becomes your own again. It doesn’t. You’re always answering to something: a wife, a job, a body that needs the gym whether it wants to go or not.
 
 That thread led to another thread, the way it always does, and forty minutes later I was standing in cooling water asking myself whether I have free will. I don’t. I’m fairly sure of it. But the way I arrived there is the actual point, because nothing about this morning was a choice. My brain just does this. It grabs one loose end and unravels the whole sweater, and I’m left standing there holding a pile of different colored yarn with no idea how it used to be a sweater at all.`,
+    content: `I was in the shower a couple of weeks ago, not spiraling, just pulling on a thread, when I landed on Hawaii.
+
+We’re going this summer, the whole family, and somewhere between rinsing and conditioning I realized that even on a beach five time zones from my inbox, I’m still the dad. Someone has to know where the rental car is parked. Someone has to make sure everyone eats something besides shave ice. That someone is me, and it’ll be me on the next trip too, and the one after that. There’s this idea that eventually all your time becomes your own again. It doesn’t. You’re always answering to something: a wife, a job, a body that needs the gym whether it wants to go or not.
+
+That thread led to another thread, the way it always does, and forty minutes later I was standing in cooling water asking myself whether I have free will. I don’t. I’m fairly sure of it. But the way I arrived there is the actual point, because nothing about this morning was a choice. My brain just does this. It grabs one loose end and unravels the whole sweater, and I’m left standing there holding a pile of different colored yarn with no idea how it used to be a sweater at all.
+
+Here’s some of what’s in the pile.
+
+A guest speaker came through our congregation in Texas, more than fifteen years ago now. I clocked his face almost immediately, because his brother went to high school with me in Utah. Still lives there, as far as I know. Has never left. Two weeks later I’m at Animal Kingdom in Florida, on the train, and there’s the same man, in town on business, decided to spend his one free day at a theme park built around endangered species and a giant fake tree. Three states involved in that sentence. One person tying them together, and he wasn’t even on the train.
+
+That’s not random. Random doesn’t reach across three states and a high school I haven’t thought about in decades to put a man on a train next to me. That’s code, doing what code does.
+
+It happened again with a friend, this one closer to a decade back now. Neither of us planned to be in New York the same week. We just were, and once we figured that out, we did the normal thing and met up for a Yankees game, said our goodbyes afterward, see you next time. That part I’ll give you, that part was on purpose. Next morning I’m walking to an appointment in Manhattan, a city with more people in it than my entire home state, and I look up and there he is again, coming out of a building. Nobody planned that. We laughed, said hello, went our separate ways again. Eight million people, and the code put us on the same sidewalk twice in twelve hours.
+
+I used to call that serendipity. I don’t anymore. I call it the rules of the simulation doing exactly what they were written to do, and me bumping into the edges of the code like a moth bumping into a window it can’t see.
+
+My wife gets the front-row seat to all of this, which I don’t think she signed up for. Last week I showed her a video, one of those AI-generated parodies, Warren and Sanders and Mamdani coming for Elon Musk’s money in a fake scenario that never happened and never will. I warned her she’d probably hate it. She laughed anyway. Afterward I told her this is what billions of dollars in AI investment is actually going to produce most days: a dumb video that ate enough processing power to run a small country, that gave us ninety seconds of entertainment and changed nothing. She said, “I don’t like this timeline.”
+
+I’ve been chewing on that line for a week. Timeline implies a branch, a choice point, a version of reality that didn’t have to happen. But if every possible branch exists somewhere, all at once, then her not liking this timeline doesn’t mean we chose it. It means this is the one the code landed us on, and somewhere else a version of us is watching a different dumb video, equally unable to do anything about it.
+
+Then there’s the time I got moved off a telco role at Red Hat because my skip-level didn’t think I had the chops for it yet. Wasn’t asked. Got reassigned to a team focused on this thing called cloud computing nobody respected yet, and that reassignment turned into the best run of my career. I didn’t pick that. Somebody else’s read on me rerouted the next decade, no luck involved at all, just one person’s call I never got a vote on.
+
+Every so often something happens that’s so specific, so inexplicable, it feels like proof of the opposite, like maybe I really am steering. Then I sit with it for a second and decide an event with no explanation is just code I haven’t found the logic for yet.
+
+Stuff just happens. It’s weird. I’ve stopped expecting it to make sense in real time.
+
+I told my wife a couple weeks ago that I’m the main character of this video game. She didn’t even look up. “And what are we? Just NPCs doing your bidding?”
+
+“Pretty much,” I said.
+
+She wasn’t wrong to ask, and I wasn’t going to argue the point.
+
+Both of my sons have read enough of what I write now that they’ve started saying some version of the same thing to me, independently, weeks apart. They like reading it, they tell me, because it’s interesting watching how my head works. Both times my answer was close to the same thing: it’s not always a fun place to be in there. It’s chaotic. Sometimes it’s a little scary. I don’t get a vote in where it goes.
+
+I’ve got no free will over my own stupid brain.`,
     keywords: ["shower thoughts philosophy humor", "free will philosophy essay", "overthinking personal essay", "dad brain always working humor", "simulation theory funny personal story", "philosophical rabbit hole essay"],
     metaDescription: "A shower thought about a Hawaii trip unravels into free will and simulation theory — and the realization the unraveling was never a choice.",
   },
@@ -550,6 +688,21 @@ That thread led to another thread, the way it always does, and forty minutes lat
 My dad started the tradition the only way it could start: by getting up before everyone else. He’d leave the house at five in the morning, alone, and head down to the parade route to save our spots before Provo woke up. By the time the rest of us showed up with chairs and blankets, he’d already been standing on an empty street for a few hours, guarding folding chairs against a parade that wasn’t due for another three.
 
 In the early years, the floats threw candy. Real candy, by the fistful, off moving vehicles, which is either a safety hazard or the best idea anyone’s ever had, depending on whether you were the kid catching it or the parent watching kids dive for it. They don’t do that anymore. Now they hand out coupons. A coupon has never once been worth diving for.`,
+    content: `The coldest Fourth of July I remember, it was raining. Not the dramatic kind. The drizzling, gray, fifty-degrees-and-miserable kind that makes you check the calendar to confirm you didn’t accidentally show up in April. We stood on University Avenue anyway, soaked through, waiting for a parade that was absolutely going to happen whether the weather cooperated or not. Nobody suggested leaving. That wasn’t a thing you did.
+
+My dad started the tradition the only way it could start: by getting up before everyone else. He’d leave the house at five in the morning, alone, and head down to the parade route to save our spots before Provo woke up. By the time the rest of us showed up with chairs and blankets, he’d already been standing on an empty street for a few hours, guarding folding chairs against a parade that wasn’t due for another three.
+
+In the early years, the floats threw candy. Real candy, by the fistful, off moving vehicles, which is either a safety hazard or the best idea anyone’s ever had, depending on whether you were the kid catching it or the parent watching kids dive for it. They don’t do that anymore. Now they hand out coupons. A coupon has never once been worth diving for.
+
+By the time I was a teenager, the crowds had caught up to the tradition. People started camping out the night before, claiming curb space with sleeping bags and a kind of conviction I never had. My brothers were among them. They’d go down the night before and stay for the whole spectacle, the noise, the strangers, the general chaos of a street that doesn’t sleep on July third. More than once, they slept straight through the parade they’d camped out all night to see. We still had great seats. We just had them a different way.
+
+Eventually I became my dad. Two blocks from the route, married, my own version of the early alarm, walking down before the sun was fully up to hold our spot. I never thought about it as repeating anything. It just seemed like the obvious thing to do, the same way it must have seemed obvious to him twenty years earlier.
+
+The best year, we didn’t have to fight for any of it. Aerial fireworks had just been legalized in Utah, which is the kind of news that makes a man rent a house. We found an Airbnb right on University Avenue, the whole family under one roof, parking for everyone, shade that didn’t require strategy. We always stayed on the east side of the street so the sun rose behind us instead of in our eyes, an old habit nobody had to explain anymore. That year, for once, it didn’t even matter. We had shade either way.
+
+We still watch parades, just differently now. The Rose Parade comes through every January on a television my wife once couldn’t understand the appeal of, until I bought our first HD set in the mid-2000s and the flowers finally looked like flowers instead of smudges. Thanksgiving morning is hers, the Rockettes and the balloons and Santa closing out the broadcast the way it’s closed out every year of her life. Neither of us has any urge to stand on a cold New York sidewalk for that one. Some parades you go to. Some you just let come to you.
+
+My dad’s not down on that street at five in the morning anymore. Nobody from my family is, some years. But I still wake up early on the Fourth, out of habit more than need, and for a second, I imagine myself back on that parade route.`,
     keywords: ["family tradition passed down generations", "Fourth of July parade memories", "small town parade nostalgia", "father son traditions essay", "growing up in Provo Utah", "family holiday traditions story"],
     metaDescription: "Decades of the Provo Fourth of July parade — from a father saving spots at dawn to a son doing the same thing without ever deciding to.",
   },
@@ -562,6 +715,67 @@ In the early years, the floats threw candy. Real candy, by the fistful, off movi
     date: "2026-07-02",
     slug: "i-was-always-going-to-end-up-there",
     excerpt: `I was standing in a church parking lot in Utah on the Fourth of July, on consecrated ground, next to my brother and my brother-in-law, lighting $1,000 worth of aerial fireworks. My father had blessed this enterprise. He was in a lawn chair with the extended family twenty feet away.\n\nI have thought carefully about how I got there, and I have concluded that it was inevitable.\n\nThe seeds were planted early.`,
+    content: `I was standing in a church parking lot in Utah on the Fourth of July, on consecrated ground, next to my brother and my brother-in-law, lighting $1,000 worth of aerial fireworks. My father had blessed this enterprise. He was in a lawn chair with the extended family twenty feet away.
+
+I have thought carefully about how I got there, and I have concluded that it was inevitable.
+
+The seeds were planted early.
+
+I was four, maybe five, when I figured out how to strike a match. My parents kept matchbooks around the house, small cardboard ones that came in little cartons, the kind nobody keeps anymore. I found them. I took them downstairs to my bedroom. I would sit there in the dark and light matches, one after another, watching the flame appear and die. I’m not sure what I was looking for. I found something, though, because I kept going back.
+
+My mom smelled smoke coming from the basement one afternoon and came downstairs to investigate. She gave me a stern talking to and confiscated the matches. This was the first of several talks. They never fully worked.
+
+My uncle didn’t help. Around the same age, he introduced me to match rockets. You take a paper match, wrap a small piece of foil tight around the head, lean it against something at an angle, and hold a second lit match underneath it. The heat builds until the head ignites and the thing shoots across the room. My uncle thought this was worth teaching a five-year-old. In fairness, it absolutely is.
+
+The problem was friends. Specifically, older friends, because I was six and the kids egging me on were eight and nine and ten, and I wanted them to like me. We were maybe a block from the fire station. There was a telephone pole with dead brush around the base of it. If you know anything about old telephone poles, you know they were soaked in creosote. Highly flammable. I didn’t know that at the time, which in retrospect is the only charitable interpretation of what I did next.
+
+I started a fire right next to it.
+
+It caught fast. The fire trucks arrived fast too, which was the one thing working in our favor that afternoon. We stood there and watched them put it out. We didn’t run. That part still strikes me as interesting. We just watched, the way you’d watch anything interesting, because we were six and hadn’t yet developed the instinct to flee the scene of our own crimes.
+
+The fire department called my mother. Another stern talking to. I want to note that I was six years old, so there’s no criminal record. I mention this only because I’ve thought about it.
+
+This pattern continued.
+
+When I was eleven or twelve, I found a container of black powder in an empty field near our house, the kind people used to use to refill their own bullets. The field was where the neighborhood went to dump things, not a landfill officially, just a place where stuff accumulated. I took the powder home, made piles of it in the backyard, and lit them. Black powder goes up in a flash. Instantaneous. I got too close on one of the experiments, and my mom noticed my eyebrows looked wrong. She asked what happened. I told her the powder was gone, which was the relevant information. She was not comforted by this.
+
+A few years later, I discovered that gasoline was fun to play with. I was in the garage by myself. I poured some on the floor and lit it. This was satisfying, so I decided I needed a bigger fire. I picked up the can and started pouring gasoline directly onto the burning gasoline, because I was young and this seemed logical. The flame went up into the can. I dropped the can. The burning can tipped over and spread fire across the garage floor, and I watched six, eight, ten feet of flame reach up toward the rafters.
+
+We had a fire extinguisher just inside the house. I got it, pulled the pin, and put the fire out. I want to say I was calm about this. The truth is I can’t verify that.
+
+My parents were not pleased. I don’t remember the specific conversation. I think by that point we all understood the shape of what was happening.
+
+There’s another story I’m less sure my parents know: there was an evening, home alone, when I put oil in a pot to make popcorn the old way, open pot on the hot stove, and then went downstairs and forgot about it. The phone rang. I ran upstairs. The pot was on fire. I put a lid on it (I’m not stupid) and answered the phone. It was a neighbor. She said, “Your house is on fire.” I said, “I know,” and I hung up on her.
+
+The pot fire went out. The neighbor’s concern was touching. I never mentioned this to anyone.
+
+All of this is to say: by the time I became an adult, I had a well-documented relationship with fire, and the only thing that had really changed was my access to better materials.
+
+Growing up in Utah, fireworks were mostly illegal. This did not prevent fireworks. My dad’s first cousin was a fireman, which meant he had both professional expertise and excellent judgment. Why else would he drive to Evanston, Wyoming every year and come back with a car full of aerials? We’d go out to Spanish Fork, to another cousin’s property with enough space, and he’d put on a show. I’m sure he had his reasons. He knew how to handle fire. It seemed fine.
+
+The neighborhood also had operators. If someone was headed to Evanston, word got around. I gave a neighbor twenty dollars once and they brought back a brick of firecrackers and a gross of bottle rockets. A gross is 144. My friends and I shot the bottle rockets at each other. It should be noted that this was recreational and nobody got seriously hurt, and I don’t recommend it.
+
+On mornings after the Fourth, we’d walk the block and collect the duds left from the neighbors’ activities. Firecrackers don’t always go off. You end up with a lot of survivors. We’d bring them home, sit on the porch, and relight them. Some went off in our faces. We learned you could split them in half and they’d flare. We learned that if you stomped fast enough, you could detonate one under your foot. My ears rang for days sometimes. We thought this was a reasonable price.
+
+When Utah legalized non-aerials, we found that ground bloom flowers, if you threw them in the air, would take off like helicopters. Jumping jacks too. We launched a lot of things that summer. Technically nobody’s house caught fire. I hold that up as a success.
+
+In 2011, Utah legalized aerial fireworks. I told my wife we were going to Utah for the Fourth. This was not a question.
+
+I stopped at a fireworks stand outside Moriarty, New Mexico on the way and spent several hundred dollars. You know what fireworks cost. You’re essentially lighting money on fire. You do it anyway, because the alternative is not lighting money on fire, and that’s clearly worse.
+
+My brother-in-law was exactly the same kind of person I am in this specific way. My brother also contributed (he may have even brought the good stuff back from Evanston). Between the three of us, we burned through over a thousand dollars that night in a church parking lot, my father supervising from a lawn chair, everyone rotating through to light the next one. Nothing went wrong. Every explosion happened when and how it was supposed to. Everybody still talks about that show.
+
+There’s something that happens to grown men around fireworks. It’s hard to describe without sounding unhinged. The responsible, measured, middle-aged version of yourself just steps aside and the kid who lit matches in the basement walks back out. You become six again, completely absorbed, wanting the next one to be louder, wanting to feel the sound move through your chest.
+
+Two years ago, in Montreal for the Jazz Festival, my wife and I found out about the international fireworks competition. Countries compete. Six nights, six countries, synchronized to music. We went on the Fourth of July, which in Canada is just another week night, and watched Japan perform a full show set to John Williams: Raiders, Star Wars, the whole catalog. They killed all the lights in the park so you couldn’t see anything but the river and the city beyond it and the fireworks going up. I’m not a man who cries at fireworks. I’m just saying it was extraordinary. Nothing screams Fourth of July louder than fireworks in Canada set up by a Japanese delegation.
+
+Later that same year, at Butchart Gardens in Victoria, Canada, we paid for a fireworks show that opened with a single candle shooting sparks about six feet in the air. My daughters were with us. Every time a little pinwheel lit up, we’d look at each other and giggle. By the third or fourth fountain, we were fully gone, laughing while the people around us gave us the specific look you give Americans who are laughing at your grand fireworks display. I have no regrets about this. The show was objectively meh, and we had a fantastic time.
+
+Flag Day was a few weeks ago, and my daughter asked me why we fly the flag. I didn’t have a good answer. I probably should have Googled it. The Fourth of July I understand; “the rockets’ red glare” is right there in the song. It means fire. It means the smell of a fuse burning down. It means something going up in the dark and exploding into color and sound, and that sound hitting your chest, and for a second you’re six years old in somebody’s front yard, and everything is exactly right.
+
+It means grown men becoming little boys.
+
+I was always going to end up in that parking lot.`,
     keywords: ["family tradition passed down generations", "Fourth of July family stories", "how childhood shapes who you become", "family legacy and identity essay", "growing up into your family's habits", "nostalgic personal essay family traditions"],
     metaDescription: "Lighting $1,000 of fireworks with his father's blessing, he realizes this moment was inevitable — the seeds were planted decades earlier.",
   },

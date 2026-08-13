@@ -2,37 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://tacticalgeneralist.com/</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-13</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://tacticalgeneralist.com/articles</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://tacticalgeneralist.com/articles/finance</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-13</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://tacticalgeneralist.com/articles/career</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-13</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://tacticalgeneralist.com/articles/lifeskills</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-13</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://tacticalgeneralist.com/articles/mindset</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-13</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://tacticalgeneralist.com/articles/fieldnotes</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-13</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -73,6 +73,11 @@
   <url>
     <loc>https://tacticalgeneralist.com/articles/master-debt-or-become-its-slave</loc>
     <lastmod>2026-02-22</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tacticalgeneralist.com/articles/the-greased-pole</loc>
+    <lastmod>2026-08-04</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -161,6 +166,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://tacticalgeneralist.com/articles/twenty-minutes-that-felt-like-four</loc>
+    <lastmod>2026-08-06</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://tacticalgeneralist.com/articles/take-the-pill-or-go-to-canada</loc>
     <lastmod>2026-07-18</lastmod>
     <priority>0.6</priority>
@@ -198,6 +208,16 @@
   <url>
     <loc>https://tacticalgeneralist.com/articles/im-already-rich</loc>
     <lastmod>2026-02-24</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tacticalgeneralist.com/articles/the-gap-in-the-clouds</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tacticalgeneralist.com/articles/the-coconut-syrup-we-havent-opened</loc>
+    <lastmod>2026-08-11</lastmod>
     <priority>0.6</priority>
   </url>
   <url>

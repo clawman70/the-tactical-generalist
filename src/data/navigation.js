@@ -8,4 +8,5 @@ export const navLinks = [
   { label: 'Articles', to: '/articles' },
   { label: 'Pillars', href: '/#pillars' },
   { label: 'Philosophy', href: '/#philosophy' },
+  { label: 'Financial Literacy', to: '/financial-literacy' },
 ];

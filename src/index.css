@@ -39,6 +39,27 @@
   .interactive-link:hover {
     transform: translateY(-1px);
   }
+
+  /* Financial Literacy section only — a graph-paper texture behind the dark
+     hero, signaling "reference material" instead of the narrative site's
+     photographic/animated heroes. Isolated to .grid-blueprint so it never
+     leaks into any other page's hero. */
+  .grid-blueprint {
+    position: relative;
+    isolation: isolate;
+  }
+
+  .grid-blueprint::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(theme('colors.gunmetal') 1px, transparent 1px),
+      linear-gradient(90deg, theme('colors.gunmetal') 1px, transparent 1px);
+    background-size: 28px 28px;
+    opacity: 0.55;
+    z-index: -1;
+  }
 }
 
 /* Base resets not covered by tailwind optionally */

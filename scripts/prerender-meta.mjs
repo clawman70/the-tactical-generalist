@@ -24,6 +24,7 @@ import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import { latestContent, pillarStyles, pillarDescriptions } from '../src/data/content.js';
+import { guides } from '../src/data/financialLiteracy.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const distDir = path.join(__dirname, '..', 'dist');
@@ -105,4 +106,42 @@ for (const pillar of Object.keys(pillarStyles)) {
   count++;
 }
 
-console.log(`Prerendered ${count} static routes (${latestContent.length} articles, 5 pillars, 1 catalog).`);
+// --- Financial Literacy guides: /financial-literacy/{slug} ---
+// Only guides with finished `blocks` content get a prerendered file — a
+// "coming soon" placeholder isn't worth baking crawlable meta tags for yet.
+const finishedGuides = guides.filter((guide) => guide.blocks);
+for (const guide of finishedGuides) {
+  let html = baseHtml;
+  html = setTitle(html, `${guide.title} | Financial Literacy | The Tactical Generalist`);
+  html = setMetaContent(html, 'name="description"', guide.metaDescription);
+  html = setMetaContent(html, 'property="og:title"', guide.title);
+  html = setMetaContent(html, 'property="og:description"', guide.metaDescription);
+  html = insertBeforeHeadClose(
+    html,
+    `<link rel="canonical" href="${SITE}/financial-literacy/${guide.slug}" />\n` +
+      `  <script type="application/ld+json">${JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'TechArticle',
+        headline: guide.title,
+        description: guide.metaDescription,
+        publisher: { '@type': 'Organization', name: 'The Tactical Generalist', url: SITE },
+      })}</script>`
+  );
+  writeRoute(`financial-literacy/${guide.slug}`, html);
+  count++;
+}
+
+// --- Financial Literacy landing: /financial-literacy ---
+{
+  let html = baseHtml;
+  html = setTitle(html, 'Financial Literacy | The Tactical Generalist');
+  html = setMetaContent(
+    html,
+    'name="description"',
+    'How we got here: a set of plain, mechanics-first guides on the decisions that come up when planning for retirement.'
+  );
+  writeRoute('financial-literacy', html);
+  count++;
+}
+
+console.log(`Prerendered ${count} static routes (${latestContent.length} articles, 5 pillars, 1 catalog, ${finishedGuides.length} financial literacy guides, 1 financial literacy landing).`);

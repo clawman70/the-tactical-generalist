@@ -2,38 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://tacticalgeneralist.com/</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-29</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://tacticalgeneralist.com/articles</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-29</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://tacticalgeneralist.com/articles/finance</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-29</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://tacticalgeneralist.com/articles/career</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-29</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://tacticalgeneralist.com/articles/lifeskills</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-29</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://tacticalgeneralist.com/articles/mindset</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-29</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://tacticalgeneralist.com/articles/fieldnotes</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-29</lastmod>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tacticalgeneralist.com/financial-literacy</loc>
+    <lastmod>2026-08-29</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://tacticalgeneralist.com/articles/primed-for-a-butterfly</loc>
@@ -358,6 +363,56 @@
   <url>
     <loc>https://tacticalgeneralist.com/articles/most-people-think-theyre-birds</loc>
     <lastmod>2026-03-26</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tacticalgeneralist.com/financial-literacy/bucket-strategy-101</loc>
+    <lastmod>2026-08-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tacticalgeneralist.com/financial-literacy/lot-selection-trick</loc>
+    <lastmod>2026-08-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tacticalgeneralist.com/financial-literacy/aca-health-insurance-before-65</loc>
+    <lastmod>2026-08-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tacticalgeneralist.com/financial-literacy/roth-conversion-timing</loc>
+    <lastmod>2026-08-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tacticalgeneralist.com/financial-literacy/social-security-claiming-couples</loc>
+    <lastmod>2026-08-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tacticalgeneralist.com/financial-literacy/dividend-tilt-vs-growth</loc>
+    <lastmod>2026-08-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tacticalgeneralist.com/financial-literacy/margin-lending-vs-selling</loc>
+    <lastmod>2026-08-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tacticalgeneralist.com/financial-literacy/house-sale-capital-gains</loc>
+    <lastmod>2026-08-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tacticalgeneralist.com/financial-literacy/one-more-year-trap</loc>
+    <lastmod>2026-08-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tacticalgeneralist.com/financial-literacy/retirement-readiness-checklist</loc>
+    <lastmod>2026-08-29</lastmod>
     <priority>0.6</priority>
   </url>
 </urlset>
